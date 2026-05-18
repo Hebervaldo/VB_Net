@@ -1,0 +1,14 @@
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\bin\Debug\net8.0\prjRedeNeuralVBCoreNet.exe
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\bin\Debug\net8.0\prjRedeNeuralVBCoreNet.deps.json
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\bin\Debug\net8.0\prjRedeNeuralVBCoreNet.runtimeconfig.json
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\bin\Debug\net8.0\prjRedeNeuralVBCoreNet.dll
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\bin\Debug\net8.0\prjRedeNeuralVBCoreNet.pdb
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\prjRedeNeuralVBCoreNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\prjRedeNeuralVBCoreNet.AssemblyInfoInputs.cache
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\prjRedeNeuralVBCoreNet.AssemblyInfo.vb
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\prjRedeNeuralVBCoreNet.vbproj.CoreCompileInputs.cache
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\prjRedeNeuralVBCoreNet.dll
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\refint\prjRedeNeuralVBCoreNet.dll
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\prjRedeNeuralVBCoreNet.pdb
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\prjRedeNeuralVBCoreNet.genruntimeconfig.cache
+C:\Users\heber\OneDrive\Área de Trabalho\prjRedeNeuralVBCoreNet\prjRedeNeuralVBCoreNet\obj\Debug\net8.0\ref\prjRedeNeuralVBCoreNet.dll

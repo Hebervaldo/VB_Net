@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2ae674a8-3dea-4484-a7a5-756d272823eb": {
+      "ProjectGuid": "2ae674a8-3dea-4484-a7a5-756d272823eb",
+      "DisplayName": "Solucoes_Rede_Neural_VBCoreNet",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

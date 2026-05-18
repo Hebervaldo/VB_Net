@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Solucoes_Rede_Neural_VB_Net", "Solucoes_Rede_Neural_VB_Net\Solucoes_Rede_Neural_VB_Net.vbproj", "{A719F094-47AA-4511-8AF4-99B2E2DB2260}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A719F094-47AA-4511-8AF4-99B2E2DB2260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A719F094-47AA-4511-8AF4-99B2E2DB2260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A719F094-47AA-4511-8AF4-99B2E2DB2260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A719F094-47AA-4511-8AF4-99B2E2DB2260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0BF6ED8-5821-422D-A4C0-9C6B04F8C312}
+	EndGlobalSection
+EndGlobal

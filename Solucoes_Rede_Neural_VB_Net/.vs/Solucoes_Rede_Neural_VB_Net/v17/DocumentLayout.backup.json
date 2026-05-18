@@ -1,0 +1,371 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|d:\\codigos\\redeneural\\solucoes_rede_neural_vb_net\\solucoes_rede_neural_vb_net\\frmsubvisualizador.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmsubvisualizador.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmredeneural.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmredeneural.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmredeneural.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmredeneural.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmsubvisualizador.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmsubvisualizador.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmvisualizador.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmvisualizador.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\clsredeneural.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\clsredeneural.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\my project\\assemblyinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\my project\\assemblyinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\my project\\application.myapp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\my project\\application.myapp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Solucoes_Rede_Neural_VB_Net||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\my project\\settings.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\my project\\settings.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmprincipal.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmprincipal.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmprincipal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmprincipal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmvisualizador.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmvisualizador.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmvisualizador.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmvisualizador.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmsubvisualizador.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmsubvisualizador.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\frmredeneural.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\frmredeneural.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\solucoes_rede_neural_vb_net\\clstemporario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A719F094-47AA-4511-8AF4-99B2E2DB2260}|Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj|solutionrelative:solucoes_rede_neural_vb_net\\clstemporario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmRedeNeural.vb [Design]",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.vb",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacao\\Codigos\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-21T01:37:46.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmRedeNeural.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.vb",
+              "ViewState": "AQIAAKQAAAAAwJmZmZnZv7MAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-21T01:37:47.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmSubVisualizador.vb [Design]",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.vb [Design]",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-21T01:37:47.139Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPrincipal.vb [Design]",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmPrincipal.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmPrincipal.vb",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacao\\Codigos\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmPrincipal.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-21T01:37:47.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmSubVisualizador.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.vb",
+              "ViewState": "AQIAADEAAAAAAAAAAAD4vzoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-21T01:37:47.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmVisualizador.vb [Design]",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmVisualizador.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmVisualizador.vb",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacao\\Codigos\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmVisualizador.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-21T01:37:47.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsRedeNeural.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\clsRedeNeural.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\clsRedeNeural.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\clsRedeNeural.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\clsRedeNeural.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-21T01:37:47.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Application.Designer.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\Application.Designer.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\My Project\\Application.Designer.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\Application.Designer.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\My Project\\Application.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2025-04-21T01:37:47.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\AssemblyInfo.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\My Project\\AssemblyInfo.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\AssemblyInfo.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\My Project\\AssemblyInfo.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-21T01:37:47.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Application.myapp",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\Application.myapp",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\My Project\\Application.myapp",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\Application.myapp",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\My Project\\Application.myapp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-21T01:37:47.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Solucoes_Rede_Neural_VB_Net",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2023-05-30T02:24:28.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmPrincipal.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmPrincipal.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmPrincipal.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmPrincipal.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmPrincipal.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-21T01:37:47.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Settings.Designer.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\Settings.Designer.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\My Project\\Settings.Designer.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\Settings.Designer.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\My Project\\Settings.Designer.vb",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2025-04-21T01:37:47.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\Settings.settings",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\My Project\\Settings.settings",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\My Project\\Settings.settings",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\My Project\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-04-21T01:37:47.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmPrincipal.Designer.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmPrincipal.Designer.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmPrincipal.Designer.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmPrincipal.Designer.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmPrincipal.Designer.vb",
+              "ViewState": "AQIAALkAAABgMjMzMzMpwMsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2025-04-21T01:37:47.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.config",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\app.config",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\app.config",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\app.config",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\app.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-21T01:37:47.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmPrincipal.resx",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmPrincipal.resx",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmPrincipal.resx",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmPrincipal.resx",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmPrincipal.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2025-04-21T01:37:47.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmVisualizador.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmVisualizador.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmVisualizador.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmVisualizador.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmVisualizador.vb",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAqwHEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-21T01:37:47.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmVisualizador.Designer.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmVisualizador.Designer.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmVisualizador.Designer.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmVisualizador.Designer.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmVisualizador.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2025-04-21T01:37:47.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmSubVisualizador.Designer.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.Designer.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.Designer.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.Designer.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmSubVisualizador.Designer.vb",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-21T01:37:47.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmRedeNeural.Designer.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.Designer.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.Designer.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.Designer.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\frmRedeNeural.Designer.vb",
+              "ViewState": "AQIAAPYBAAAAAAAAAAAAAPcBAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2025-04-21T01:37:47.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "clsTemporario.vb",
+              "DocumentMoniker": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\clsTemporario.vb",
+              "RelativeDocumentMoniker": "Solucoes_Rede_Neural_VB_Net\\clsTemporario.vb",
+              "ToolTip": "D:\\Codigos\\RedeNeural\\Solucoes_Rede_Neural_VB_Net\\Solucoes_Rede_Neural_VB_Net\\clsTemporario.vb",
+              "RelativeToolTip": "Solucoes_Rede_Neural_VB_Net\\clsTemporario.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-21T01:37:47.166Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
