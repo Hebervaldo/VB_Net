@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C60F22E6-957D-4E68-A89C-9904AAB5ACA3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prjColetorDadosCSNet20</RootNamespace>
+    <AssemblyName>prjColetorDadosCSNet20</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>prjColetorDadosCSNet20.Program</StartupObject>
+    <ManifestCertificateThumbprint>E8F76009D84399B726154D6D1E198E13D3581B4F</ManifestCertificateThumbprint>
+    <ManifestKeyFile>prjColetorDadosCSNet20_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsMobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.WindowsMobile.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.WindowsMobile.Samples.Location, Version=1.0.3760.23375, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Win32, Version=1.0.5437.25474, Culture=neutral, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsBancoDados.cs" />
+    <Compile Include="clsBDSQLServerCE.cs" />
+    <Compile Include="clsConexaoBancoDados.cs" />
+    <Compile Include="clsImplementacaoBancoDados.cs" />
+    <Compile Include="clsUtilitarios.cs" />
+    <Compile Include="Compas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Compas.designer.cs">
+      <DependentUpon>Compas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados_ForcarParada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados_ManterCanalAberto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistanceCalculator.cs" />
+    <Compile Include="frmAlterarDeletarItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlterarDeletarItem.designer.cs">
+      <DependentUpon>frmAlterarDeletarItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlterarItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlterarItem.designer.cs">
+      <DependentUpon>frmAlterarItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBatteryStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBatteryStatus.designer.cs">
+      <DependentUpon>frmBatteryStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeletarItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeletarItem.designer.cs">
+      <DependentUpon>frmDeletarItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGPSPerimeter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGPSPerimeter.designer.cs">
+      <DependentUpon>frmGPSPerimeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados.designer.cs">
+      <DependentUpon>frmMonitorCarregamentoDados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados_DownloadTabelaApoio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados_DownloadTabelaInventarioBensPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados_MonitorarWebService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados_ResetarContadorLinhaAcumuladoTotalTabelaInventarioBens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados_TemporizadorForcarDesligamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonitorCarregamentoDados_UploadTabelaInventarioBensPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal_CadastroOtimizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_CaixaTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_Notificacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_PreparacaoColetor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_SalvarBancoDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobreAplicativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobreAplicativo.designer.cs">
+      <DependentUpon>frmSobreAplicativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizarAlterarItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarAlterarItem.designer.cs">
+      <DependentUpon>frmVisualizarAlterarItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAlterarDeletarItem.resx">
+      <DependentUpon>frmAlterarDeletarItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlterarItem.resx">
+      <DependentUpon>frmAlterarItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBatteryStatus.resx">
+      <DependentUpon>frmBatteryStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeletarItem.resx">
+      <DependentUpon>frmDeletarItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGPSPerimeter.resx">
+      <DependentUpon>frmGPSPerimeter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonitorCarregamentoDados.resx">
+      <DependentUpon>frmMonitorCarregamentoDados.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobreAplicativo.resx">
+      <DependentUpon>frmSobreAplicativo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizarAlterarItem.resx">
+      <DependentUpon>frmVisualizarAlterarItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Images\Battery.pdn" />
+    <None Include="Images\Battery_Charging.pdn" />
+    <None Include="Images\Battery_No_Battery.pdn" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Web References\WebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bibliotecas\Microsoft.Windowsce.Forms.dll" />
+    <Content Include="Bibliotecas\Microsoft.WindowsMobile.dll" />
+    <Content Include="Bibliotecas\Microsoft.WindowsMobile.Forms.dll" />
+    <Content Include="Bibliotecas\Microsoft.WindowsMobile.Samples.Location.dll" />
+    <Content Include="Bibliotecas\Win32.dll" />
+    <Content Include="Icones\Barcode.ico" />
+    <Content Include="Icones\BatteryStatus.ico" />
+    <Content Include="Icones\db2hc.ico" />
+    <Content Include="Images\AC_Backup.bmp" />
+    <Content Include="Images\AC_Offline.bmp" />
+    <Content Include="Images\AC_Online.bmp" />
+    <Content Include="Images\AC_Unknown.bmp" />
+    <Content Include="Images\Battery_Charging.bmp" />
+    <Content Include="Images\Battery_Charging_Original.bmp" />
+    <Content Include="Images\Battery_Critical.bmp" />
+    <Content Include="Images\Battery_Critical_Original.bmp" />
+    <Content Include="Images\Battery_High.bmp" />
+    <Content Include="Images\Battery_Low.bmp" />
+    <Content Include="Images\Battery_No_Battery.bmp" />
+    <Content Include="Images\Battery_Unknown.bmp" />
+    <None Include="app.config" />
+    <None Include="prjColetorDadosCSNet20_TemporaryKey.pfx" />
+    <None Include="Web References\WebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebService\WebServicoBancoDados.disco" />
+    <None Include="Web References\WebService\WebServicoBancoDados.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://SrvPatrimonio/Todos/WebServicoBancoDados.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebService\</RelPath>
+      <UpdateFromURL>http://SrvPatrimonio/Todos/WebServicoBancoDados.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>prjColetorDadosCSNet20_WebService_WebServicoBancoDados</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sons\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

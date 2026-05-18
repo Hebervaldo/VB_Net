@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B95597E3-4B40-449A-8D6C-89415D8BE214}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Solucoes_Integradas_VB_Net_3_5.My.MyApplication</StartupObject>
+    <RootNamespace>Solucoes_Integradas_VB_Net_3_5</RootNamespace>
+    <AssemblyName>Solucoes_Integradas_VB_Net_3_5</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>61C22E575D2EDB606B3768F09396F44061DFFC66</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Solucoes_Integradas_VB_Net_3_5_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <SignAssembly>false</SignAssembly>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Solucoes_Integradas_VB_Net_3_5.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Solucoes_Integradas_VB_Net_3_5.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Solucoes_Integradas_VB_Net_3_5.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Solucoes_Integradas_VB_Net_3_5.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.19, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsBancoDados.vb" />
+    <Compile Include="clsBDAccess.vb" />
+    <Compile Include="clsBDSQLServer.vb" />
+    <Compile Include="clsBDSQLServerCE.vb" />
+    <Compile Include="clsConexaoBancoDados.vb" />
+    <Compile Include="clsExcel.vb" />
+    <Compile Include="clsImplementacaoBancoDados.vb" />
+    <Compile Include="clsListViewItemComparer.vb" />
+    <Compile Include="clsOdbc.vb" />
+    <Compile Include="clsOleDb.vb" />
+    <Compile Include="FlatDateTimePicker.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmBens.Designer.vb">
+      <DependentUpon>frmBens.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBens_ImportarTabelaBensEletronorteColetor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBens_ImportarTabelaBensEletronortePrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroUsuario.Designer.vb">
+      <DependentUpon>frmCadastroUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroUsuario_ImportarTabelaUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCADU.Designer.vb">
+      <DependentUpon>frmCADU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCADU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCADU_ImportarTabelaEmpregadosColetor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCADU_ImportarTabelaEmpregadosPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarteiras.Designer.vb">
+      <DependentUpon>frmCarteiras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCarteiras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarteiras_CriarTabelaCarteira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarteiras_CriarTabelaCarteiraBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCautelas.Designer.vb">
+      <DependentUpon>frmCautelas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCautelas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCautelas_CriarTabelaCautela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCautelas_CriarTabelaCautelaBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCentroCusto.Designer.vb">
+      <DependentUpon>frmCentroCusto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCentroCusto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCentroCusto_ImportarTabelaCentroCustoColetor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCentroCusto_ImportarTabelaCentroCustoPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCodigoBarras.Designer.vb">
+      <DependentUpon>frmCodigoBarras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCodigoBarras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguracoes.Designer.vb">
+      <DependentUpon>frmConfiguracoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguracoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE_Mail.Designer.vb">
+      <DependentUpon>frmE_Mail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmE_Mail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFotografia.Designer.vb">
+      <DependentUpon>frmFotografia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFotografia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportadorBaseDadosColetor.Designer.vb">
+      <DependentUpon>frmImportadorBaseDadosColetor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportadorBaseDadosColetor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportadorBaseDadosColetor_ImportarTabelaBensEletronorteCentroCustoColetor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportadorBaseDadosPrincipal.Designer.vb">
+      <DependentUpon>frmImportadorBaseDadosPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportadorBaseDadosPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportadorBaseDadosPrincipal_ImportarTabelaBensEletronorteCentroCustoPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformacoes.Designer.vb">
+      <DependentUpon>frmInformacoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformacoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInventarioBens.Designer.vb">
+      <DependentUpon>frmInventarioBens.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInventarioBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInventarioBens_ImportarTabelaInventarioBensColetor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInventarioBens_ImportarTabelaInventarioBensPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapa.Designer.vb">
+      <DependentUpon>frmMapa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMapa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMBPs.Designer.vb">
+      <DependentUpon>frmMBPs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMBPs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMBPs_CriarTabelaMBP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMBPs_CriarTabelaMBPBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ExportarDocumentoBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ExportarDocumentoCarteira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ExportarDocumentoCautela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ExportarDocumentoInventarioBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ExportarDocumentoMBP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_GerarCarteiraCautela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_GerarInventarioCautela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_GerarInventarioMBP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_GerarMBPCautela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ImpressaoBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ImpressaoCarteira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ImpressaoCautela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ImpressaoInvetarioBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_ImpressaoMBP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_MonitorarDiretorioArquivo.vb" />
+    <Compile Include="frmPrincipal_PlanilhaExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal_SalvarBancoDados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobreAplicativo.designer.vb">
+      <DependentUpon>frmSobreAplicativo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobreAplicativo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSugestionador.Designer.vb">
+      <DependentUpon>frmSugestionador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSugestionador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelasAuxiliares.designer.vb">
+      <DependentUpon>frmTabelasAuxiliares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTabelasAuxiliares.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelasAuxiliares_CriarTabelaFiltroImportacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelasAuxiliares_CriarTabelaMBPConservacaoBens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelasAuxiliares_CriarTabelaMBPMotivacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelasAuxiliares_CriarTabelaMBPPropriedade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelasAuxiliares_CriarTabelaMBPTipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelasAuxiliares_CriarTabelaTermoResponsabilidadeGeral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTelaLogon.Designer.vb">
+      <DependentUpon>frmTelaLogon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTelaLogon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarImpressao.Designer.vb">
+      <DependentUpon>frmVisualizarImpressao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizarImpressao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarImpressao_ExportarRelatorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarImpressao_Impressao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Encriptacao.vb" />
+    <Compile Include="Modulo_Geral.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Relatorios\ImpressaoBens.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImpressaoBens.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ImpressaoCarteiras.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImpressaoCarteiras.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ImpressaoCarteirasBens.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImpressaoCarteirasBens.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ImpressaoCautelas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImpressaoCautelas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ImpressaoInventarioBens.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImpressaoInventarioBens.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ImpressaoMBPs.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImpressaoMBPs.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmBens.resx">
+      <DependentUpon>frmBens.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroUsuario.resx">
+      <DependentUpon>frmCadastroUsuario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCADU.resx">
+      <DependentUpon>frmCADU.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarteiras.resx">
+      <DependentUpon>frmCarteiras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCautelas.resx">
+      <DependentUpon>frmCautelas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCentroCusto.resx">
+      <DependentUpon>frmCentroCusto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCodigoBarras.resx">
+      <DependentUpon>frmCodigoBarras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguracoes.resx">
+      <DependentUpon>frmConfiguracoes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmE_Mail.resx">
+      <DependentUpon>frmE_Mail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFotografia.resx">
+      <DependentUpon>frmFotografia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportadorBaseDadosColetor.resx">
+      <DependentUpon>frmImportadorBaseDadosColetor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportadorBaseDadosPrincipal.resx">
+      <DependentUpon>frmImportadorBaseDadosPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformacoes.resx">
+      <DependentUpon>frmInformacoes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInventarioBens.resx">
+      <DependentUpon>frmInventarioBens.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapa.resx">
+      <DependentUpon>frmMapa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMBPs.resx">
+      <DependentUpon>frmMBPs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobreAplicativo.resx">
+      <DependentUpon>frmSobreAplicativo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSugestionador.resx">
+      <DependentUpon>frmSugestionador.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTabelasAuxiliares.resx">
+      <DependentUpon>frmTabelasAuxiliares.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTelaLogon.resx">
+      <DependentUpon>frmTelaLogon.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizarImpressao.resx">
+      <DependentUpon>frmVisualizarImpressao.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\ImpressaoBens.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ImpressaoBens.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\ImpressaoCarteiras.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ImpressaoCarteiras.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\ImpressaoCarteirasBens.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ImpressaoCarteirasBens.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\ImpressaoCautelas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ImpressaoCautelas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\ImpressaoInventarioBens.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ImpressaoInventarioBens.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\ImpressaoMBPs.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ImpressaoMBPs.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Solucoes_Integradas_VB_Net_3_5_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="JRO">
+      <Guid>{AC3B8B4C-B6CA-11D1-9F31-00C04FC29D52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <Private>True</Private>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bibliotecas\BarcodeLib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="BusinessObjects.CrystalReports.10.5">
+      <Visible>False</Visible>
+      <ProductName>Crystal Reports Basic for Visual Studio 2008 %28x86, x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\prjColetorDadosCSNet20\prjColetorDadosCSNet20.csproj">
+      <Project>{C60F22E6-957D-4E68-A89C-9904AAB5ACA3}</Project>
+      <Name>prjColetorDadosCSNet20</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
