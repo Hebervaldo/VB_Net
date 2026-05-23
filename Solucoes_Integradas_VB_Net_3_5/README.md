@@ -1,62 +1,31 @@
-# Soluções Integradas de Gestão Patrimonial em VB.NET 3.5
+# Soluções Integradas VB .NET 3.5
 
-Sistema corporativo desenvolvido em VB.NET utilizando .NET Framework 3.5 para gerenciamento patrimonial, controle de movimentação de bens, inventários, cautelas de responsabilidade e integração operacional com coletores de dados móveis.
+Sistema corporativo desenvolvido predominantemente em VB.NET utilizando .NET Framework 3.5, voltado para gestão patrimonial, movimentação de bens, controle administrativo e integração com sistemas de inventário patrimonial.
 
-O projeto principal foi desenvolvido para centralizar processos administrativos relacionados ao patrimônio corporativo, permitindo cadastro, controle, emissão de relatórios, geração documental e acompanhamento operacional de bens patrimoniais.
+O projeto é composto por dois sistemas integrados:
 
-A solução contempla funcionalidades de:
+1. Sistema principal de gestão patrimonial e administrativa;
+2. Sistema auxiliar derivado do coletor de dados patrimonial utilizado para testes de webservice, simulação operacional e demonstração das funcionalidades sem necessidade do coletor físico.
 
-- Movimentação de Bens Patrimoniais;
-- Carteiras de Movimentação;
-- Cautelas de Responsabilidade;
-- Inventários patrimoniais;
-- Relatórios patrimoniais integrados ao SAP;
-- Exportação de dados;
-- Emissão de documentos impressos;
-- Integração com Crystal Reports;
-- Envio automatizado de relatórios por e-mail.
-
-Além do sistema principal, a solução também possui um segundo projeto integrado, utilizado como ambiente de homologação e simulação das funcionalidades originalmente implementadas nos coletores móveis de inventário patrimonial.
-
-Esse segundo sistema desktop era utilizado principalmente para:
-
-- testes de WebServices;
-- homologação de sincronização;
-- validação de integração;
-- simulação operacional sem necessidade do coletor físico;
-- demonstração das funcionalidades do sistema móvel;
-- apoio ao desenvolvimento e debugging.
-
-A arquitetura da solução foi estruturada de forma modular, permitindo integração entre os módulos administrativos, operacionais e móveis.
+A solução foi desenvolvida para automatizar processos relacionados ao patrimônio corporativo, inventários, cautelas, carteiras de movimentação e emissão de documentos operacionais integrados ao ambiente SAP da organização.
 
 ---
 
 ## ✨ Principais Recursos
 
-### Sistema Principal
-
-- Cadastro de Movimentação de Bens Patrimoniais
-- Controle de Carteiras de Movimentação
-- Gestão de Cautelas de Responsabilidade
+- Cadastro de movimentação de bens patrimoniais
+- Controle de cautelas de responsabilidade
+- Gestão de carteiras de movimentação
 - Inventário patrimonial
-- Consulta patrimonial integrada ao SAP
-- Relatórios patrimoniais
-- Emissão de documentos impressos
-- Integração com Crystal Reports
-- Exportação de relatórios para Excel
+- Integração com SAP IU
+- Emissão de relatórios em Crystal Reports
+- Exportação para Excel
 - Envio de relatórios por e-mail
-- Processamento de dados patrimoniais
+- Integração com webservices
+- Simulador desktop do coletor patrimonial
+- Testes de comunicação sem coletor físico
+- Integração com banco de dados
 - Estrutura modular corporativa
-
-### Sistema de Simulação / Homologação
-
-- Simulação desktop do coletor móvel
-- Testes de integração com WebServices
-- Homologação de sincronização
-- Debugging de funcionalidades móveis
-- Simulação operacional sem coletor físico
-- Ambiente de laboratório para desenvolvimento
-- Reprodução das funcionalidades do inventário móvel
 
 ---
 
@@ -64,89 +33,92 @@ A arquitetura da solução foi estruturada de forma modular, permitindo integra�
 
 O sistema permite:
 
-- cadastro de movimentações patrimoniais;
-- controle de cautelas de responsabilidade;
-- gerenciamento de inventários;
-- emissão de relatórios patrimoniais;
-- integração com SAP IU;
-- geração de documentos para impressão;
+- cadastro de bens patrimoniais;
+- geração de movimentações;
+- emissão de cautelas;
+- controle de responsabilidade patrimonial;
+- inventário de bens;
+- consulta de bens vinculados a usuários;
+- geração de relatórios impressos;
 - exportação de relatórios para Excel;
-- envio automatizado de relatórios por e-mail;
-- processamento estruturado de dados patrimoniais;
-- integração entre módulos administrativos;
-- testes de integração via WebService;
-- simulação das funcionalidades móveis;
-- homologação operacional;
-- validação de sincronização de dados.
+- envio automatizado por e-mail;
+- integração com webservices;
+- simulação do sistema do coletor em Windows Forms;
+- testes operacionais e laboratoriais do webservice;
+- demonstração de funcionalidades sem utilização do coletor físico.
 
 ---
 
-## 🏗️ Arquitetura da Solução
+## 🏗️ Arquitetura do Projeto
 
-A solução contém dois projetos principais integrados.
+O projeto possui arquitetura modular composta por dois sistemas integrados.
 
-### 1. Sistema Corporativo Patrimonial
+### Sistema Principal
 
-Responsável pelo gerenciamento administrativo e operacional do patrimônio corporativo.
+Responsável pela gestão administrativa e patrimonial corporativa.
 
-#### Principais componentes
+#### Recursos principais
 
-| Componente | Função |
-|---|---|
-| `CadastroMBP` | Movimentação de Bens Patrimoniais |
-| `CarteirasMovimentacao` | Controle de carteiras |
-| `CautelasResponsabilidade` | Gestão de cautelas |
-| `InventarioPatrimonial` | Inventários de bens |
-| `RelatoriosCrystal` | Emissão de relatórios |
-| `ExportacaoExcel` | Exportação de dados |
-| `IntegracaoSAP` | Consulta patrimonial SAP IU |
-| `EnvioEmail` | Envio automatizado de relatórios |
+- cadastro patrimonial;
+- geração de documentos;
+- emissão de relatórios;
+- integração com SAP;
+- exportação de dados;
+- envio de e-mails;
+- gerenciamento operacional.
 
-### 2. Sistema de Simulação do Coletor
+### Sistema Auxiliar de Simulação
 
-Responsável pela homologação e testes das funcionalidades móveis.
+Aplicação Windows Forms desenvolvida como laboratório operacional e ambiente de testes do webservice do coletor patrimonial.
 
-#### Principais componentes
+Esse módulo reproduz funcionalidades originalmente utilizadas no coletor de dados móvel, permitindo:
 
-| Componente | Função |
-|---|---|
-| `SimuladorColetor` | Simulação operacional |
-| `IntegracaoWebService` | Comunicação com serviços |
-| `SincronizacaoDados` | Testes de sincronização |
-| `LaboratorioTestes` | Ambiente de homologação |
-| `DebugOperacional` | Validação e debugging |
+- testes de sincronização;
+- validação de webservices;
+- demonstração operacional;
+- testes sem utilização do dispositivo móvel;
+- simulação de inventário patrimonial.
 
 ---
 
 ## 🔧 Tecnologias Utilizadas
 
 - VB.NET
+- C#
 - .NET Framework 3.5
 - Windows Forms
 - Crystal Reports
-- SAP IU
-- WebServices
 - Microsoft Excel
-- SMTP / Envio de E-mails
+- WebServices
+- SAP IU
+- SQL Server
 - Programação Orientada a Objetos
-- Manipulação de Arquivos
-- Processamento de Dados
 - Integração Corporativa
 
 ---
 
-## 🖥️ Ambiente Operacional
+## 📊 Proporção Aproximada das Linguagens
 
-O sistema foi utilizado em ambientes corporativos para:
+Com base na estrutura e nos arquivos identificados no projeto, a distribuição aproximada das tecnologias utilizadas é:
 
-- gestão patrimonial;
-- inventário de bens;
-- auditoria patrimonial;
-- emissão documental;
-- controle de responsabilidade;
-- homologação de integração;
-- testes operacionais;
-- sincronização com sistemas móveis.
+| Tecnologia | Proporção Aproximada |
+|---|---|
+| VB.NET | ~65% |
+| C# | ~25% |
+| XML / Configurações / Resources | ~7% |
+| Crystal Reports | ~2% |
+| Outros recursos | ~1% |
+
+### Estrutura identificada
+
+- Aproximadamente 109 arquivos `.vb`
+- Aproximadamente 44 arquivos `.cs`
+- Arquivos `.rpt` para Crystal Reports
+- Arquivos `.config`, `.xml` e `.resx`
+- Bancos locais `.mdb` e `.sdf`
+- Estruturas de integração via WebService/WSDL
+
+A análise mostra que o núcleo administrativo e patrimonial do sistema foi desenvolvido majoritariamente em VB.NET, enquanto o módulo de simulação operacional e testes do coletor foi implementado em C# Windows Forms.
 
 ---
 
@@ -154,30 +126,33 @@ O sistema foi utilizado em ambientes corporativos para:
 
 O projeto foi desenvolvido para:
 
-- centralizar processos patrimoniais;
-- automatizar controles administrativos;
-- facilitar emissão de relatórios;
-- integrar sistemas móveis e desktop;
-- acelerar inventários patrimoniais;
-- reduzir erros operacionais;
-- apoiar homologação e testes;
-- estruturar soluções corporativas integradas.
+- automatizar gestão patrimonial;
+- controlar movimentação de bens;
+- facilitar inventários;
+- reduzir processos manuais;
+- integrar patrimônio ao SAP;
+- gerar documentação operacional;
+- automatizar geração de relatórios;
+- permitir testes laboratoriais do webservice;
+- disponibilizar ambiente de demonstração sem coletor físico.
 
 ---
 
 ## 🚀 Melhorias Futuras
 
 - Migração para .NET moderno
+- Integração web
+- Dashboard gerencial
 - API REST corporativa
-- Dashboard web administrativo
-- Integração com banco de dados modernos
-- Processamento assíncrono
-- Logs centralizados
-- Compatibilidade com dispositivos Android
-- Monitoramento operacional em tempo real
+- Compatibilidade mobile
+- Assinatura digital de documentos
+- Relatórios analíticos avançados
+- Integração em nuvem
+- Auditoria operacional avançada
+- Sincronização em tempo real
 
 ---
 
 ## 📄 Licença
 
-Projeto desenvolvido para gestão patrimonial corporativa, integração operacional e automação administrativa utilizando VB.NET e .NET Framework 3.5.
+Projeto desenvolvido para automação corporativa, gestão patrimonial e integração administrativa utilizando VB.NET e .NET Framework 3.5.
