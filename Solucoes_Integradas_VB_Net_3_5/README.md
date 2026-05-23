@@ -1,6 +1,6 @@
 # Soluções Integradas VB .NET 3.5
 
-Sistema corporativo desenvolvido predominantemente em VB.NET utilizando .NET Framework 3.5, voltado para gestão patrimonial, movimentação de bens, controle administrativo e integração com sistemas de inventário patrimonial.
+Sistema corporativo desenvolvido predominantemente em VB.NET utilizando .NET Framework 3.5, voltado para gestão patrimonial, movimentação de bens, controle administrativo, inventário patrimonial e integração corporativa com múltiplas tecnologias de persistência e sincronização de dados.
 
 O projeto é composto por dois sistemas integrados:
 
@@ -24,7 +24,10 @@ A solução foi desenvolvida para automatizar processos relacionados ao patrimô
 - Integração com webservices
 - Simulador desktop do coletor patrimonial
 - Testes de comunicação sem coletor físico
-- Integração com banco de dados
+- Integração com SQL Server
+- Integração com SQL Server CE
+- Integração com Microsoft Access
+- Sincronização de dados
 - Estrutura modular corporativa
 
 ---
@@ -43,6 +46,9 @@ O sistema permite:
 - exportação de relatórios para Excel;
 - envio automatizado por e-mail;
 - integração com webservices;
+- sincronização de dados corporativos;
+- armazenamento local offline;
+- integração com bancos locais e corporativos;
 - simulação do sistema do coletor em Windows Forms;
 - testes operacionais e laboratoriais do webservice;
 - demonstração de funcionalidades sem utilização do coletor físico.
@@ -65,7 +71,9 @@ Responsável pela gestão administrativa e patrimonial corporativa.
 - integração com SAP;
 - exportação de dados;
 - envio de e-mails;
-- gerenciamento operacional.
+- gerenciamento operacional;
+- sincronização corporativa;
+- persistência híbrida de dados.
 
 ### Sistema Auxiliar de Simulação
 
@@ -77,7 +85,49 @@ Esse módulo reproduz funcionalidades originalmente utilizadas no coletor de dad
 - validação de webservices;
 - demonstração operacional;
 - testes sem utilização do dispositivo móvel;
-- simulação de inventário patrimonial.
+- simulação de inventário patrimonial;
+- validação de comunicação corporativa.
+
+---
+
+## 🗄️ Arquitetura de Dados
+
+A análise do código-fonte confirmou utilização híbrida de múltiplos mecanismos de persistência de dados.
+
+### Tecnologias de banco identificadas
+
+| Tecnologia | Finalidade |
+|---|---|
+| SQL Server | Backend corporativo principal |
+| SQL Server CE (.sdf) | Armazenamento local/offline |
+| Microsoft Access (.mdb) | Operações auxiliares e integração |
+| Excel | Exportação operacional e relatórios |
+
+### Classes de acesso identificadas
+
+| Classe | Função |
+|---|---|
+| `clsBDAccess.vb` | Integração com Microsoft Access |
+| `clsBDSQLServer.vb` | Integração com SQL Server |
+| `clsBDSQLServerCE.vb` | Integração com SQL Server CE |
+| `clsOleDb.vb` | Camada genérica OLEDB |
+| `clsExcel.vb` | Integração/exportação Excel |
+
+### Providers identificados
+
+- `OleDbConnection`
+- `SqlConnection`
+- `SqlCeConnection`
+- `Microsoft.Jet.OLEDB`
+
+A estrutura indica uma solução corporativa híbrida preparada para:
+
+- operação online/offline;
+- sincronização entre ambientes;
+- integração corporativa;
+- persistência distribuída;
+- exportação operacional;
+- mobilidade patrimonial.
 
 ---
 
@@ -92,6 +142,9 @@ Esse módulo reproduz funcionalidades originalmente utilizadas no coletor de dad
 - WebServices
 - SAP IU
 - SQL Server
+- SQL Server CE
+- Microsoft Access
+- OLEDB
 - Programação Orientada a Objetos
 - Integração Corporativa
 
@@ -133,6 +186,8 @@ O projeto foi desenvolvido para:
 - integrar patrimônio ao SAP;
 - gerar documentação operacional;
 - automatizar geração de relatórios;
+- permitir sincronização online/offline;
+- integrar múltiplas bases de dados;
 - permitir testes laboratoriais do webservice;
 - disponibilizar ambiente de demonstração sem coletor físico.
 
@@ -150,9 +205,11 @@ O projeto foi desenvolvido para:
 - Integração em nuvem
 - Auditoria operacional avançada
 - Sincronização em tempo real
+- Migração para SQL Server moderno
+- Centralização da camada de dados
 
 ---
 
 ## 📄 Licença
 
-Projeto desenvolvido para automação corporativa, gestão patrimonial e integração administrativa utilizando VB.NET e .NET Framework 3.5.
+Projeto desenvolvido para automação corporativa, gestão patrimonial e integração administrativa utilizando VB.NET, .NET Framework 3.5 e arquitetura híbrida de persistência de dados.
