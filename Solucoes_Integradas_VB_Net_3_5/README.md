@@ -11,6 +11,14 @@ A solução foi desenvolvida para automatizar processos relacionados ao patrimô
 
 ---
 
+## 🖥️ Plataforma de Interface
+
+O sistema foi desenvolvido utilizando Windows Forms como tecnologia principal de interface desktop corporativa, permitindo construção de aplicações administrativas, módulos operacionais, integração com relatórios e ambientes de simulação do coletor patrimonial.
+
+A arquitetura Windows Forms foi utilizada tanto no sistema principal quanto no módulo de testes e simulação operacional.
+
+---
+
 ## ✨ Principais Recursos
 
 - Cadastro de movimentação de bens patrimoniais
@@ -77,7 +85,7 @@ Responsável pela gestão administrativa e patrimonial corporativa.
 
 ### Sistema Auxiliar de Simulação
 
-Aplicação Windows Forms desenvolvida como laboratório operacional e ambiente de testes do webservice do coletor patrimonial.
+Aplicação desktop desenvolvida em Windows Forms utilizada como laboratório operacional e ambiente de testes do webservice do coletor patrimonial.
 
 Esse módulo reproduz funcionalidades originalmente utilizadas no coletor de dados móvel, permitindo:
 
@@ -137,6 +145,7 @@ A estrutura indica uma solução corporativa híbrida preparada para:
 - C#
 - .NET Framework 3.5
 - Windows Forms
+- Aplicações Desktop Corporativas
 - Crystal Reports
 - Microsoft Excel
 - WebServices
@@ -171,7 +180,7 @@ Com base na estrutura e nos arquivos identificados no projeto, a distribuição 
 - Bancos locais `.mdb` e `.sdf`
 - Estruturas de integração via WebService/WSDL
 
-A análise mostra que o núcleo administrativo e patrimonial do sistema foi desenvolvido majoritariamente em VB.NET, enquanto o módulo de simulação operacional e testes do coletor foi implementado em C# Windows Forms.
+A análise mostra que o núcleo administrativo e patrimonial do sistema foi desenvolvido majoritariamente em VB.NET, enquanto o módulo de simulação operacional e testes do coletor foi implementado em C# utilizando Windows Forms como plataforma desktop de laboratório operacional.
 
 ---
 
