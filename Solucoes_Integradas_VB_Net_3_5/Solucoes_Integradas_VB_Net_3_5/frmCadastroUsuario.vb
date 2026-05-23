@@ -413,8 +413,8 @@ Namespace Solucoes_Integradas_VB_Net_3_5
         Private Sub cmb1_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmb1.TextChanged
             Try
                 dtgv1.Item(2, numlinhaselecionada).Value = cmb1.Text
-                dtgv1.BeginEdit(True)
-                dtgv1.EndEdit()
+                mtdAtualizarTs()
+                mtdAdicionarRegistro()
             Catch
             End Try
         End Sub

@@ -6,7 +6,117 @@ Solucoes_Integradas_VB_Net_3_5
 </name>
 </assembly>
 <members>
-<member name="F:Solucoes_Integradas_VB_Net_3_5.Encryption.Hash.Provider.CRC32">
+<member name="T:Solucoes_Integradas_VB_Net_3_5.Solucoes_Integradas_VB_Net_3_5.clsInventario">
+	<summary>
+ Customer class to be displayed in the property grid
+ </summary>
+</member><member name="T:Solucoes_Integradas_VB_Net_3_5.Solucoes_Integradas_VB_Net_3_5.clsBens">
+	<summary>
+ Customer class to be displayed in the property grid
+ </summary>
+</member><member name="F:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.numInstanciasCriadas">
+	<summary>
+ Variável de Classe
+ </summary>
+</member><member name="F:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.senha">
+	<summary>
+ Variáveis de Instâncias
+ </summary>
+</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.#ctor">
+	<summary>
+ Método Construtor sem argumentos.
+ </summary>
+</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.#ctor(System.String)">
+	<summary>
+ Método Construtor com argumentos.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getnumInstanciasCriadas">
+	<summary>
+ Propriedade estática (compartilhada pela classe entre os objetos) que resgata o valor da variável de classe.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getsenha">
+	<summary>
+ Propriedade que resgata a senha.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.setsenha">
+	<summary>
+ Propriedade que ajusta a senha.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getchave">
+	<summary>
+ Propriedade que resgata a chave.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.setchave">
+	<summary>
+ Propriedade que ajusta a chave.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getsenhaCriptografada">
+	<summary>
+ Propriedade que resgata a senha criptografada.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.setsenhaCriptografada">
+	<summary>
+ Propriedade que ajusta a senha criptografada.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getMensagemErro">
+	<summary>
+ Propriedade que resgata a mensagem de erro.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.setMensagemErro">
+	<summary>
+ Propriedade que ajusta a mensagem de erro.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.gettipoCriptografia">
+	<summary>
+ Propriedade que resgata o tipo de criptografia.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.settipoCriptografia">
+	<summary>
+ Propriedade que ajusta o tipo de criptografia.
+ </summary>
+</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.mtdCriptografar">
+	<summary>
+ Métodos sobrecarregados de criptografar senha.
+ </summary>
+</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.mtdDesCriptografar">
+	<summary>
+ Métodos sobrecarregados de descriptografar senha.
+ </summary>
+</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.finalize">
+	<summary> 
+ Método Finalizador.
+ </summary>
+</member><member name="T:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia">
+	<summary>
+ Classe que inicia procedimentos relativos a Criptografia.
+ </summary>
+</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.#ctor(System.IO.Stream)">
+	<summary>
+ Encapsula um <see cref="T:System.IO.Stream"/>.
+ </summary>
+	<param name="stream">O stream para calcular o checksum.</param>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.Stream">
+	<summary>
+ Obtem o stream.
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.ReadCrc">
+	<summary>
+ Obtem o checksum CRC dos dados que foram lidos pelo stream
+ </summary>
+</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.WriteCrc">
+	<summary>
+ Obtem o checksum CRC dos dados que foram escritos para o stream
+ </summary>
+</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.ResetChecksum">
+	<summary>
+ Reseta a leitura e escrita dos checksums.
+ </summary>
+</member><member name="T:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream">
+	<summary>
+ Encapsula um <see cref="T:System.IO.Stream"/> para calcular o checksum CRC32
+ em tempo de execução
+ </summary>
+</member><member name="F:Solucoes_Integradas_VB_Net_3_5.Encryption.Hash.Provider.CRC32">
 	<summary>
  Cyclic Redundancy Check provider, 32-bit
  </summary>
@@ -444,116 +554,6 @@ Solucoes_Integradas_VB_Net_3_5
 </member><member name="T:Solucoes_Integradas_VB_Net_3_5.Encryption.Utils">
 	<summary>
  Friend class for shared utility methods used by multiple Encryption classes
- </summary>
-</member><member name="T:Solucoes_Integradas_VB_Net_3_5.Solucoes_Integradas_VB_Net_3_5.clsInventario">
-	<summary>
- Customer class to be displayed in the property grid
- </summary>
-</member><member name="F:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.numInstanciasCriadas">
-	<summary>
- Variável de Classe
- </summary>
-</member><member name="F:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.senha">
-	<summary>
- Variáveis de Instâncias
- </summary>
-</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.#ctor">
-	<summary>
- Método Construtor sem argumentos.
- </summary>
-</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.#ctor(System.String)">
-	<summary>
- Método Construtor com argumentos.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getnumInstanciasCriadas">
-	<summary>
- Propriedade estática (compartilhada pela classe entre os objetos) que resgata o valor da variável de classe.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getsenha">
-	<summary>
- Propriedade que resgata a senha.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.setsenha">
-	<summary>
- Propriedade que ajusta a senha.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getchave">
-	<summary>
- Propriedade que resgata a chave.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.setchave">
-	<summary>
- Propriedade que ajusta a chave.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getsenhaCriptografada">
-	<summary>
- Propriedade que resgata a senha criptografada.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.setsenhaCriptografada">
-	<summary>
- Propriedade que ajusta a senha criptografada.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.getMensagemErro">
-	<summary>
- Propriedade que resgata a mensagem de erro.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.setMensagemErro">
-	<summary>
- Propriedade que ajusta a mensagem de erro.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.gettipoCriptografia">
-	<summary>
- Propriedade que resgata o tipo de criptografia.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.settipoCriptografia">
-	<summary>
- Propriedade que ajusta o tipo de criptografia.
- </summary>
-</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.mtdCriptografar">
-	<summary>
- Métodos sobrecarregados de criptografar senha.
- </summary>
-</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.mtdDesCriptografar">
-	<summary>
- Métodos sobrecarregados de descriptografar senha.
- </summary>
-</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia.finalize">
-	<summary> 
- Método Finalizador.
- </summary>
-</member><member name="T:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCriptografia">
-	<summary>
- Classe que inicia procedimentos relativos a Criptografia.
- </summary>
-</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.#ctor(System.IO.Stream)">
-	<summary>
- Encapsula um <see cref="T:System.IO.Stream"/>.
- </summary>
-	<param name="stream">O stream para calcular o checksum.</param>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.Stream">
-	<summary>
- Obtem o stream.
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.ReadCrc">
-	<summary>
- Obtem o checksum CRC dos dados que foram lidos pelo stream
- </summary>
-</member><member name="P:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.WriteCrc">
-	<summary>
- Obtem o checksum CRC dos dados que foram escritos para o stream
- </summary>
-</member><member name="M:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream.ResetChecksum">
-	<summary>
- Reseta a leitura e escrita dos checksums.
- </summary>
-</member><member name="T:Solucoes_Integradas_VB_Net_3_5.Modulo_Geral.clsCrcStream">
-	<summary>
- Encapsula um <see cref="T:System.IO.Stream"/> para calcular o checksum CRC32
- em tempo de execução
- </summary>
-</member><member name="T:Solucoes_Integradas_VB_Net_3_5.Solucoes_Integradas_VB_Net_3_5.clsBens">
-	<summary>
- Customer class to be displayed in the property grid
  </summary>
 </member><member name="P:Solucoes_Integradas_VB_Net_3_5.Solucoes_Integradas_VB_Net_3_5.clsBancoDados.prpConexao">
 	<summary>

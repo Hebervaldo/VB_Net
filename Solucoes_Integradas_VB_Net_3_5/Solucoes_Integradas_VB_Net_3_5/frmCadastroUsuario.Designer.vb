@@ -345,7 +345,7 @@
             'tslblTotalLinhas
             '
             Me.tslblTotalLinhas.Name = "tslblTotalLinhas"
-            Me.tslblTotalLinhas.Size = New System.Drawing.Size(90, 17)
+            Me.tslblTotalLinhas.Size = New System.Drawing.Size(89, 17)
             Me.tslblTotalLinhas.Text = "Total de Linhas:"
             '
             'tstxtTotalLinhas
@@ -360,7 +360,7 @@
             'tslblTotalColunas
             '
             Me.tslblTotalColunas.Name = "tslblTotalColunas"
-            Me.tslblTotalColunas.Size = New System.Drawing.Size(99, 17)
+            Me.tslblTotalColunas.Size = New System.Drawing.Size(98, 17)
             Me.tslblTotalColunas.Text = "Total de Colunas:"
             '
             'tstxtTotalColunas
