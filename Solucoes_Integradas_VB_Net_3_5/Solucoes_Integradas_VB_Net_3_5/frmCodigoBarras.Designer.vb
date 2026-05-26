@@ -75,9 +75,9 @@
             'statusStrip1
             '
             Me.statusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsslEncodedType, Me.tslblLibraryVersion, Me.tslblCredits})
-            Me.statusStrip1.Location = New System.Drawing.Point(0, 368)
+            Me.statusStrip1.Location = New System.Drawing.Point(0, 366)
             Me.statusStrip1.Name = "statusStrip1"
-            Me.statusStrip1.Size = New System.Drawing.Size(813, 22)
+            Me.statusStrip1.Size = New System.Drawing.Size(813, 24)
             Me.statusStrip1.SizingGrip = False
             Me.statusStrip1.TabIndex = 79
             Me.statusStrip1.Text = "statusStrip1"
@@ -86,20 +86,20 @@
             '
             Me.tsslEncodedType.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right
             Me.tsslEncodedType.Name = "tsslEncodedType"
-            Me.tsslEncodedType.Size = New System.Drawing.Size(4, 17)
+            Me.tsslEncodedType.Size = New System.Drawing.Size(4, 19)
             '
             'tslblLibraryVersion
             '
             Me.tslblLibraryVersion.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right
             Me.tslblLibraryVersion.Name = "tslblLibraryVersion"
-            Me.tslblLibraryVersion.Size = New System.Drawing.Size(670, 17)
+            Me.tslblLibraryVersion.Size = New System.Drawing.Size(659, 19)
             Me.tslblLibraryVersion.Spring = True
             Me.tslblLibraryVersion.Text = "LibVersion"
             '
             'tslblCredits
             '
             Me.tslblCredits.Name = "tslblCredits"
-            Me.tslblCredits.Size = New System.Drawing.Size(124, 17)
+            Me.tslblCredits.Size = New System.Drawing.Size(135, 19)
             Me.tslblCredits.Text = "Written by: Brad Barnhill"
             Me.tslblCredits.TextAlign = System.Drawing.ContentAlignment.MiddleRight
             '
@@ -450,8 +450,9 @@
             Me.ClientSize = New System.Drawing.Size(813, 390)
             Me.Controls.Add(Me.SplitContainer1)
             Me.Controls.Add(Me.statusStrip1)
-            Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+            Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
             Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+            Me.MaximizeBox = False
             Me.Name = "frmCodigoBarras"
             Me.Text = "Codigo de Barras"
             Me.statusStrip1.ResumeLayout(False)

@@ -134,12 +134,6 @@ C:\Users\Usuario\Desktop\Projetos\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integr
 C:\Users\Usuario\Desktop\Projetos\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.xml
 C:\Users\Usuario\Desktop\Projetos\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.pdb
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\bin\Debug\Solucoes_Integradas_VB_Net_3_5.exe.config
-C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Interop.ADOX.dll
-C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Interop.JRO.dll
-C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.vbproj.ResolveComReference.cache
-C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.exe
-C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.xml
-C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.pdb
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\bin\Debug\Solucoes_Integradas_VB_Net_3_5.exe.manifest
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\bin\Debug\Solucoes_Integradas_VB_Net_3_5.application
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\bin\Debug\Solucoes_Integradas_VB_Net_3_5.exe
@@ -165,6 +159,9 @@ C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\bin\Debug\Interop.ADOX.dll
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\bin\Debug\Interop.JRO.dll
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Interop.JRO.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.vbproj.ResolveComReference.cache
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.Solucoes_Integradas_VB_Net_3_5.frmBens.resources
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.Solucoes_Integradas_VB_Net_3_5.frmCadastroUsuario.resources
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.Solucoes_Integradas_VB_Net_3_5.frmCADU.resources
@@ -191,3 +188,6 @@ C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.vbproj.GenerateResource.Cache
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.exe.manifest
 C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.application
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.exe
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.xml
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Integradas_VB_Net_3_5\Solucoes_Integradas_VB_Net_3_5\obj\x86\Debug\Solucoes_Integradas_VB_Net_3_5.pdb

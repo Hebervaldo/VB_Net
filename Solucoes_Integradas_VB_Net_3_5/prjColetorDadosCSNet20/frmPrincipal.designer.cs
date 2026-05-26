@@ -23,6 +23,22 @@
             base.Dispose(disposing);
         }
 
+        // Flag que indica que não queremos o botão fechar.
+        private const int CP_NOCLOSE_BUTTON = 0x200;
+
+        protected override System.Windows.Forms.CreateParams CreateParams
+        {
+            get
+            {
+                // Obtém as flags atuais
+                System.Windows.Forms.CreateParams parametros = base.CreateParams;
+                // Adiciona a flag que indica que o "X" não deve ser mostrado
+                // parametros.ClassStyle = parametros.ClassStyle | CP_NOCLOSE_BUTTON;
+                // Retorna as flags modificadas
+                return parametros;
+            }
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -351,7 +367,7 @@
             this.tbpConfiguracoes.Controls.Add(this.txtEnderecoBaseDados);
             this.tbpConfiguracoes.Location = new System.Drawing.Point(4, 22);
             this.tbpConfiguracoes.Name = "tbpConfiguracoes";
-            this.tbpConfiguracoes.Size = new System.Drawing.Size(254, 267);
+            this.tbpConfiguracoes.Size = new System.Drawing.Size(262, 276);
             this.tbpConfiguracoes.TabIndex = 9;
             this.tbpConfiguracoes.Text = "Configurações";
             // 
@@ -549,7 +565,7 @@
             this.tbpTabelas.Controls.Add(this.tbc2);
             this.tbpTabelas.Location = new System.Drawing.Point(4, 22);
             this.tbpTabelas.Name = "tbpTabelas";
-            this.tbpTabelas.Size = new System.Drawing.Size(254, 267);
+            this.tbpTabelas.Size = new System.Drawing.Size(262, 276);
             this.tbpTabelas.TabIndex = 4;
             this.tbpTabelas.Text = "Tabelas";
             // 
@@ -757,7 +773,7 @@
             this.tbpDadosGerais.Controls.Add(this.btnPatrimonioItem);
             this.tbpDadosGerais.Location = new System.Drawing.Point(4, 22);
             this.tbpDadosGerais.Name = "tbpDadosGerais";
-            this.tbpDadosGerais.Size = new System.Drawing.Size(254, 267);
+            this.tbpDadosGerais.Size = new System.Drawing.Size(262, 276);
             this.tbpDadosGerais.TabIndex = 1;
             this.tbpDadosGerais.Text = "Dados Gerais";
             // 
@@ -1097,7 +1113,7 @@
             this.tbpControleFisico.Controls.Add(this.lblDataInventario);
             this.tbpControleFisico.Location = new System.Drawing.Point(4, 22);
             this.tbpControleFisico.Name = "tbpControleFisico";
-            this.tbpControleFisico.Size = new System.Drawing.Size(254, 267);
+            this.tbpControleFisico.Size = new System.Drawing.Size(262, 276);
             this.tbpControleFisico.TabIndex = 3;
             this.tbpControleFisico.Text = "Controle Físico";
             // 
@@ -1465,7 +1481,7 @@
             this.tbpPrincipal.Controls.Add(this.lblMatriculaInventario);
             this.tbpPrincipal.Location = new System.Drawing.Point(4, 22);
             this.tbpPrincipal.Name = "tbpPrincipal";
-            this.tbpPrincipal.Size = new System.Drawing.Size(254, 267);
+            this.tbpPrincipal.Size = new System.Drawing.Size(262, 276);
             this.tbpPrincipal.TabIndex = 0;
             this.tbpPrincipal.Text = "Principal";
             // 
@@ -1614,10 +1630,10 @@
             this.tbc1.Controls.Add(this.tbpConfiguracoesExtras);
             this.tbc1.Controls.Add(this.tbpZerarTabelas);
             this.tbc1.Controls.Add(this.tbpSair);
-            this.tbc1.Location = new System.Drawing.Point(0, 0);
+            this.tbc1.Location = new System.Drawing.Point(12, 12);
             this.tbc1.Name = "tbc1";
             this.tbc1.SelectedIndex = 0;
-            this.tbc1.Size = new System.Drawing.Size(262, 293);
+            this.tbc1.Size = new System.Drawing.Size(270, 302);
             this.tbc1.TabIndex = 0;
             this.tbc1.SelectedIndexChanged += new System.EventHandler(this.tbc1_SelectedIndexChanged);
             // 
@@ -1644,7 +1660,7 @@
             this.tbpDadosComplementares.Controls.Add(this.cmbObservacaoItem);
             this.tbpDadosComplementares.Location = new System.Drawing.Point(4, 22);
             this.tbpDadosComplementares.Name = "tbpDadosComplementares";
-            this.tbpDadosComplementares.Size = new System.Drawing.Size(254, 267);
+            this.tbpDadosComplementares.Size = new System.Drawing.Size(262, 276);
             this.tbpDadosComplementares.TabIndex = 2;
             this.tbpDadosComplementares.Text = "Dados Complementares";
             // 
@@ -1872,7 +1888,7 @@
             this.tbpRelatorios.Controls.Add(this.tbc3);
             this.tbpRelatorios.Location = new System.Drawing.Point(4, 22);
             this.tbpRelatorios.Name = "tbpRelatorios";
-            this.tbpRelatorios.Size = new System.Drawing.Size(254, 267);
+            this.tbpRelatorios.Size = new System.Drawing.Size(262, 276);
             this.tbpRelatorios.TabIndex = 5;
             this.tbpRelatorios.Text = "Relatórios";
             // 
@@ -2293,7 +2309,7 @@
             this.tbpFotografia.Controls.Add(this.pctFotografia);
             this.tbpFotografia.Location = new System.Drawing.Point(4, 22);
             this.tbpFotografia.Name = "tbpFotografia";
-            this.tbpFotografia.Size = new System.Drawing.Size(254, 267);
+            this.tbpFotografia.Size = new System.Drawing.Size(262, 276);
             this.tbpFotografia.TabIndex = 6;
             this.tbpFotografia.Text = "Fotografia";
             // 
@@ -2375,7 +2391,7 @@
             this.tbpGPS.Controls.Add(this.txtGPSDeviceUsed);
             this.tbpGPS.Location = new System.Drawing.Point(4, 22);
             this.tbpGPS.Name = "tbpGPS";
-            this.tbpGPS.Size = new System.Drawing.Size(254, 267);
+            this.tbpGPS.Size = new System.Drawing.Size(262, 276);
             this.tbpGPS.TabIndex = 7;
             this.tbpGPS.Text = "GPS";
             // 
@@ -2543,7 +2559,7 @@
             this.tbpMapa.Controls.Add(this.wbMapa);
             this.tbpMapa.Location = new System.Drawing.Point(4, 22);
             this.tbpMapa.Name = "tbpMapa";
-            this.tbpMapa.Size = new System.Drawing.Size(254, 267);
+            this.tbpMapa.Size = new System.Drawing.Size(262, 276);
             this.tbpMapa.TabIndex = 8;
             this.tbpMapa.Text = "Mapa";
             // 
@@ -2595,7 +2611,7 @@
             this.tbpConfiguracoesExtras.Controls.Add(this.pctConfiguracoesExtras);
             this.tbpConfiguracoesExtras.Location = new System.Drawing.Point(4, 22);
             this.tbpConfiguracoesExtras.Name = "tbpConfiguracoesExtras";
-            this.tbpConfiguracoesExtras.Size = new System.Drawing.Size(254, 267);
+            this.tbpConfiguracoesExtras.Size = new System.Drawing.Size(262, 276);
             this.tbpConfiguracoesExtras.TabIndex = 10;
             this.tbpConfiguracoesExtras.Text = "Configurações Extras";
             // 
@@ -2746,7 +2762,7 @@
             this.tbpZerarTabelas.Controls.Add(this.btnZerarTabelaInventarioBens);
             this.tbpZerarTabelas.Location = new System.Drawing.Point(4, 22);
             this.tbpZerarTabelas.Name = "tbpZerarTabelas";
-            this.tbpZerarTabelas.Size = new System.Drawing.Size(254, 267);
+            this.tbpZerarTabelas.Size = new System.Drawing.Size(262, 276);
             this.tbpZerarTabelas.TabIndex = 11;
             this.tbpZerarTabelas.Text = "Zerar Tabelas";
             // 
@@ -2890,7 +2906,7 @@
             this.tbpSair.Controls.Add(this.pctSairAplicativo);
             this.tbpSair.Location = new System.Drawing.Point(4, 22);
             this.tbpSair.Name = "tbpSair";
-            this.tbpSair.Size = new System.Drawing.Size(254, 267);
+            this.tbpSair.Size = new System.Drawing.Size(262, 276);
             this.tbpSair.TabIndex = 12;
             this.tbpSair.Text = "Sair";
             // 
@@ -3056,11 +3072,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(274, 305);
+            this.ClientSize = new System.Drawing.Size(293, 322);
             this.Controls.Add(this.tbc1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.MaximizeBox = false;
             this.Menu = this.mnm1;
             this.Name = "frmPrincipal";
             this.Text = "Coletor de Dados";

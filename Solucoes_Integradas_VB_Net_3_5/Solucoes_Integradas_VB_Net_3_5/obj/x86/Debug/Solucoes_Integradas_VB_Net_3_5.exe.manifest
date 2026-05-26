@@ -81,7 +81,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>pLI+D4IGp78E7DOEWQX2jX7czaI=</dsig:DigestValue>
+        <dsig:DigestValue>fW09DP9f/OEN3YvN8iePtvAId/Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -93,7 +93,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>KBMb0yGqojY7L7JetMVdog0idQM=</dsig:DigestValue>
+        <dsig:DigestValue>86iTKvbgAZ7M0eD+bogebHW6e3M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -165,19 +165,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UvdcTLFdBhsqe5senEO4EAboHS8=</dsig:DigestValue>
+        <dsig:DigestValue>EmwkDCmRpRN/CP7M2fytaxHbTVI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Solucoes_Integradas_VB_Net_3_5.exe" size="4208128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Solucoes_Integradas_VB_Net_3_5.exe" size="4208640">
       <assemblyIdentity name="Solucoes_Integradas_VB_Net_3_5" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>hp88WF1tQlR1YZRpvhXhb1bb9DA=</dsig:DigestValue>
+        <dsig:DigestValue>j3EzqoIy+CN/D6htvDDF+0AH1tE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
