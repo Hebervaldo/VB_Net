@@ -117,7 +117,7 @@
             this.colValue});
             this.lstBatteryStats.Location = new System.Drawing.Point(3, 79);
             this.lstBatteryStats.Name = "lstBatteryStats";
-            this.lstBatteryStats.Size = new System.Drawing.Size(234, 46);
+            this.lstBatteryStats.Size = new System.Drawing.Size(251, 43);
             this.lstBatteryStats.TabIndex = 4;
             this.lstBatteryStats.UseCompatibleStateImageBehavior = false;
             this.lstBatteryStats.View = System.Windows.Forms.View.Details;
@@ -202,7 +202,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(240, 128);
+            this.ClientSize = new System.Drawing.Size(257, 125);
             this.Controls.Add(this.lstBatteryStats);
             this.Controls.Add(this.txtBatteryChem);
             this.Controls.Add(this.txtBatteryCurrent);

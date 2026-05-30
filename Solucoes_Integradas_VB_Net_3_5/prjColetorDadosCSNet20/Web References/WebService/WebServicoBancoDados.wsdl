@@ -2247,10 +2247,10 @@
   </wsdl:binding>
   <wsdl:service name="WebServicoBancoDados">
     <wsdl:port name="WebServicoBancoDadosSoap" binding="tns:WebServicoBancoDadosSoap">
-      <soap:address location="http://srvpatrimonio/Todos/WebServicoBancoDados.asmx" />
+      <soap:address location="http://localhost:48534/Todos/WebServicoBancoDados.asmx" />
     </wsdl:port>
     <wsdl:port name="WebServicoBancoDadosSoap12" binding="tns:WebServicoBancoDadosSoap12">
-      <soap12:address location="http://srvpatrimonio/Todos/WebServicoBancoDados.asmx" />
+      <soap12:address location="http://localhost:48534/Todos/WebServicoBancoDados.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

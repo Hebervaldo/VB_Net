@@ -645,7 +645,7 @@ namespace prjColetorDadosCSNet20
             return saida;
         }
 
-        private void mtdCriarTabelaInventarioBensColetor()
+        private static void mtdCriarTabelaInventarioBensColetor()
         {
             clsImplementacaoBancoDados objImplementacaoBancoDados = new clsImplementacaoBancoDados
                 (
@@ -736,7 +736,7 @@ namespace prjColetorDadosCSNet20
             objImplementacaoBancoDados.Dispose();
         }
 
-        public void mtdCriarTabelaBensEletronorteColetor()
+        public static void mtdCriarTabelaBensEletronorteColetor()
         {
             clsImplementacaoBancoDados objImplementacaoBancoDados = new clsImplementacaoBancoDados
                 (
@@ -795,7 +795,7 @@ namespace prjColetorDadosCSNet20
             objImplementacaoBancoDados.Dispose();
         }
 
-        public void mtdCriarTabelaEmpregadosColetor()
+        public static void mtdCriarTabelaEmpregadosColetor()
         {
             clsImplementacaoBancoDados objImplementacaoBancoDados = new clsImplementacaoBancoDados
                 (
@@ -845,7 +845,7 @@ namespace prjColetorDadosCSNet20
             objImplementacaoBancoDados.Dispose();
         }
 
-        public void mtdCriarTabelaCentroCustoColetor()
+        public static void mtdCriarTabelaCentroCustoColetor()
         {
             clsImplementacaoBancoDados objImplementacaoBancoDados = new clsImplementacaoBancoDados
                 (
@@ -5579,42 +5579,42 @@ namespace prjColetorDadosCSNet20
 
         //private System.DateTime mtdObterDataTempoSistema()
         //{
-            //System.DateTime dtSistema = new System.DateTime();
+        //System.DateTime dtSistema = new System.DateTime();
 
-            //dtSistema = new DateTime
-            //    (
-            //    dtpDataSistema.Value.Year,
-            //    dtpDataSistema.Value.Month,
-            //    dtpDataSistema.Value.Day,
-            //    dtpTempoSistema.Value.Hour,
-            //    dtpTempoSistema.Value.Minute,
-            //    dtpTempoSistema.Value.Second,
-            //    dtpTempoSistema.Value.Millisecond
-            //    );
+        //dtSistema = new DateTime
+        //    (
+        //    dtpDataSistema.Value.Year,
+        //    dtpDataSistema.Value.Month,
+        //    dtpDataSistema.Value.Day,
+        //    dtpTempoSistema.Value.Hour,
+        //    dtpTempoSistema.Value.Minute,
+        //    dtpTempoSistema.Value.Second,
+        //    dtpTempoSistema.Value.Millisecond
+        //    );
 
-            //clsDataTempoSistema.mtdObterDataTempoSistema(ref dtSistema);
+        //clsDataTempoSistema.mtdObterDataTempoSistema(ref dtSistema);
 
-            //if (!dtpTempoSistema.Enabled)
-            //{
-            //    dtpDataSistema.Value = System.TimeZone.CurrentTimeZone.ToLocalTime(dtSistema);
-            //    dtpTempoSistema.Value = System.TimeZone.CurrentTimeZone.ToLocalTime(dtSistema);
-            //}
+        //if (!dtpTempoSistema.Enabled)
+        //{
+        //    dtpDataSistema.Value = System.TimeZone.CurrentTimeZone.ToLocalTime(dtSistema);
+        //    dtpTempoSistema.Value = System.TimeZone.CurrentTimeZone.ToLocalTime(dtSistema);
+        //}
 
-            //if (blnPermitirAtualizacaoDtpDataInventario)
-            //{
-            //    try
-            //    {
-            //        dtpDataInventario.Value = System.TimeZone.CurrentTimeZone.ToLocalTime(dtSistema);
-            //    }
-            //    catch (System.Exception ex)
-            //    {
-            //        string strExcecao = "mtdObterDataTempoSistema: " + ex.Message;
-            //        System.Diagnostics.Debug.WriteLine(strExcecao);
-            //        //frmPrincipal.mtdGerarRelatorioErros(string.Format(@"{0}Relatorio_Erros.txt", frmPrincipal.DiretorioEnderecoAplicativo), strExcecao);
-            //    }
-            //}
+        //if (blnPermitirAtualizacaoDtpDataInventario)
+        //{
+        //    try
+        //    {
+        //        dtpDataInventario.Value = System.TimeZone.CurrentTimeZone.ToLocalTime(dtSistema);
+        //    }
+        //    catch (System.Exception ex)
+        //    {
+        //        string strExcecao = "mtdObterDataTempoSistema: " + ex.Message;
+        //        System.Diagnostics.Debug.WriteLine(strExcecao);
+        //        //frmPrincipal.mtdGerarRelatorioErros(string.Format(@"{0}Relatorio_Erros.txt", frmPrincipal.DiretorioEnderecoAplicativo), strExcecao);
+        //    }
+        //}
 
-            //return dtSistema;
+        //return dtSistema;
         //}
 
         private int intContadorColetorLixo = 0;
@@ -8158,11 +8158,11 @@ namespace prjColetorDadosCSNet20
             //    intAno = dtpDataInventario.Value.Year + 1;
             //}
 
-            //txtOutrosDadosItem.Text = txtOrgaoItem.Text != string.Empty
-            //    ?
-            //    objManipuladorTexto.mtdExecutarTudo(string.Format("{0}_{1}_{2}", txtOrgaoItem.Text, intAno, intMes))
-            //    :
-            //    string.Empty;
+            txtOutrosDadosItem.Text = txtOrgaoItem.Text != string.Empty
+                ?
+                objManipuladorTexto.mtdExecutarTudo(string.Format("{0}_{1}_{2}", txtOrgaoItem.Text, intAno, intMes))
+                :
+                string.Empty;
 
             objManipuladorTexto.mtdExecutarTudo(string.Format("{0}_{1}_{2}", txtOrgaoItem.Text, intAno, intMes));
         }

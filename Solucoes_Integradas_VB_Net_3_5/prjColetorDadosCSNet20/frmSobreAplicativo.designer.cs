@@ -29,18 +29,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSobreAplicativo));
-            this.mnm1 = new System.Windows.Forms.MainMenu();
+            this.mnm1 = new System.Windows.Forms.MainMenu(this.components);
             this.mni1 = new System.Windows.Forms.MenuItem();
             this.txtDescription = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // mnm1
             // 
-            this.mnm1.MenuItems.Add(this.mni1);
+            this.mnm1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.mni1});
             // 
             // mni1
             // 
+            this.mni1.Index = 0;
             this.mni1.Text = "&Ok";
             this.mni1.Click += new System.EventHandler(this.mni1_Click);
             // 
@@ -58,7 +61,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            this.ClientSize = new System.Drawing.Size(242, 269);
             this.Controls.Add(this.txtDescription);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Menu = this.mnm1;
@@ -66,6 +69,7 @@
             this.Text = "Sobre";
             this.Load += new System.EventHandler(this.frmSobreAplicativo_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

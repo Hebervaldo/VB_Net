@@ -81,7 +81,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fW09DP9f/OEN3YvN8iePtvAId/Q=</dsig:DigestValue>
+        <dsig:DigestValue>hDCdvdxITKVx832TqLqkNPVMZls=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -93,7 +93,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>86iTKvbgAZ7M0eD+bogebHW6e3M=</dsig:DigestValue>
+        <dsig:DigestValue>kh7XXSDeuYL1+Q3dyuekGPCzMCI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -158,26 +158,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjColetorDadosCSNet20.exe" size="724992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjColetorDadosCSNet20.exe" size="726016">
       <assemblyIdentity name="prjColetorDadosCSNet20" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EmwkDCmRpRN/CP7M2fytaxHbTVI=</dsig:DigestValue>
+        <dsig:DigestValue>xJZqpqtHDv8SxM2xoGi33H858fE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Solucoes_Integradas_VB_Net_3_5.exe" size="4208640">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Solucoes_Integradas_VB_Net_3_5.exe" size="4208128">
       <assemblyIdentity name="Solucoes_Integradas_VB_Net_3_5" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>j3EzqoIy+CN/D6htvDDF+0AH1tE=</dsig:DigestValue>
+        <dsig:DigestValue>wYd2C5mzmUxfV0Zs09gczu8NIU8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -88,14 +88,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjColetorDadosCSNet20.exe" size="724992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjColetorDadosCSNet20.exe" size="726016">
       <assemblyIdentity name="prjColetorDadosCSNet20" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EmwkDCmRpRN/CP7M2fytaxHbTVI=</dsig:DigestValue>
+        <dsig:DigestValue>xJZqpqtHDv8SxM2xoGi33H858fE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -303,13 +303,13 @@
       <dsig:DigestValue>0i4UGBuvy0XAyGfu0uI+Tosn8+c=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="prjColetorDadosCSNet20.exe.config" size="949">
+  <file name="prjColetorDadosCSNet20.exe.config" size="951">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>fk9H+rTtI8XJxvHBe2jMPUpzhko=</dsig:DigestValue>
+      <dsig:DigestValue>b8deVhImWZPHZvm3igLtq3g8qX8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

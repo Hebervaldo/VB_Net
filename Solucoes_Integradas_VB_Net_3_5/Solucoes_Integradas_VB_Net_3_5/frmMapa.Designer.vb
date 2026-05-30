@@ -48,7 +48,7 @@
             Me.tcbMapa.Location = New System.Drawing.Point(9, 39)
             Me.tcbMapa.Maximum = 21
             Me.tcbMapa.Name = "tcbMapa"
-            Me.tcbMapa.Size = New System.Drawing.Size(208, 42)
+            Me.tcbMapa.Size = New System.Drawing.Size(208, 45)
             Me.tcbMapa.TabIndex = 3
             Me.tcbMapa.TickStyle = System.Windows.Forms.TickStyle.Both
             '

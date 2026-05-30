@@ -167,7 +167,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(257, 285);
+            this.ClientSize = new System.Drawing.Size(251, 280);
             this.ControlBox = false;
             this.Controls.Add(this.pctDeletar);
             this.Controls.Add(this.lsv1);

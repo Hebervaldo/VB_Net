@@ -11,3 +11,6 @@ C:\Users\Usuario\Documents\Visual Studio 2008\Projects\Solucoes_Rede_Neural_VBNe
 C:\Users\Usuario\Documents\Visual Studio 2008\Projects\Solucoes_Rede_Neural_VBNet\Solucoes_Rede_Neural_VBNet\obj\Debug\Solucoes_Rede_Neural_VBNet.exe
 C:\Users\Usuario\Documents\Visual Studio 2008\Projects\Solucoes_Rede_Neural_VBNet\Solucoes_Rede_Neural_VBNet\obj\Debug\Solucoes_Rede_Neural_VBNet.xml
 C:\Users\Usuario\Documents\Visual Studio 2008\Projects\Solucoes_Rede_Neural_VBNet\Solucoes_Rede_Neural_VBNet\obj\Debug\Solucoes_Rede_Neural_VBNet.pdb
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Rede_Neural_VBNet\Solucoes_Rede_Neural_VBNet\obj\Debug\Solucoes_Rede_Neural_VBNet.exe
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Rede_Neural_VBNet\Solucoes_Rede_Neural_VBNet\obj\Debug\Solucoes_Rede_Neural_VBNet.xml
+C:\Users\Usuario\OneDrive\Documentos\GitHub\VB_Net\Solucoes_Rede_Neural_VBNet\Solucoes_Rede_Neural_VBNet\obj\Debug\Solucoes_Rede_Neural_VBNet.pdb

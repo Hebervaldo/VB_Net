@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="prjColetorDadosCSNet20_WebService_WebServicoBancoDados" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://srvpatrimonio/Todos/WebServicoBancoDados.asmx</Value>
+      <Value Profile="(Default)">http://localhost:48534/Todos/WebServicoBancoDados.asmx</Value>
     </Setting>
   </Settings>
 </SettingsFile>

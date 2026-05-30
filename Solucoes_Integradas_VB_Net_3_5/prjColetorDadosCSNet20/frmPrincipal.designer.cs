@@ -2768,10 +2768,10 @@
             // 
             // txtSenhaZerarTabelas
             // 
-            this.txtSenhaZerarTabelas.Location = new System.Drawing.Point(133, 271);
+            this.txtSenhaZerarTabelas.Location = new System.Drawing.Point(90, 253);
             this.txtSenhaZerarTabelas.Name = "txtSenhaZerarTabelas";
             this.txtSenhaZerarTabelas.PasswordChar = '*';
-            this.txtSenhaZerarTabelas.Size = new System.Drawing.Size(140, 20);
+            this.txtSenhaZerarTabelas.Size = new System.Drawing.Size(161, 20);
             this.txtSenhaZerarTabelas.TabIndex = 23;
             // 
             // lblSenhaZerarTabelas
@@ -2779,9 +2779,9 @@
             this.lblSenhaZerarTabelas.BackColor = System.Drawing.Color.White;
             this.lblSenhaZerarTabelas.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.lblSenhaZerarTabelas.ForeColor = System.Drawing.Color.SlateGray;
-            this.lblSenhaZerarTabelas.Location = new System.Drawing.Point(47, 273);
+            this.lblSenhaZerarTabelas.Location = new System.Drawing.Point(7, 253);
             this.lblSenhaZerarTabelas.Name = "lblSenhaZerarTabelas";
-            this.lblSenhaZerarTabelas.Size = new System.Drawing.Size(80, 20);
+            this.lblSenhaZerarTabelas.Size = new System.Drawing.Size(77, 20);
             this.lblSenhaZerarTabelas.TabIndex = 24;
             this.lblSenhaZerarTabelas.Text = "Senha:";
             this.lblSenhaZerarTabelas.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -2812,9 +2812,9 @@
             // 
             this.btnZerarTabelaCentroCusto.BackColor = System.Drawing.Color.White;
             this.btnZerarTabelaCentroCusto.ForeColor = System.Drawing.Color.DarkKhaki;
-            this.btnZerarTabelaCentroCusto.Location = new System.Drawing.Point(3, 181);
+            this.btnZerarTabelaCentroCusto.Location = new System.Drawing.Point(7, 181);
             this.btnZerarTabelaCentroCusto.Name = "btnZerarTabelaCentroCusto";
-            this.btnZerarTabelaCentroCusto.Size = new System.Drawing.Size(248, 20);
+            this.btnZerarTabelaCentroCusto.Size = new System.Drawing.Size(244, 20);
             this.btnZerarTabelaCentroCusto.TabIndex = 18;
             this.btnZerarTabelaCentroCusto.Text = "Zer&ar Número de Itens";
             this.btnZerarTabelaCentroCusto.UseVisualStyleBackColor = false;
@@ -2835,9 +2835,9 @@
             // 
             this.btnZerarTabelaEmpregados.BackColor = System.Drawing.Color.White;
             this.btnZerarTabelaEmpregados.ForeColor = System.Drawing.Color.CadetBlue;
-            this.btnZerarTabelaEmpregados.Location = new System.Drawing.Point(3, 135);
+            this.btnZerarTabelaEmpregados.Location = new System.Drawing.Point(7, 135);
             this.btnZerarTabelaEmpregados.Name = "btnZerarTabelaEmpregados";
-            this.btnZerarTabelaEmpregados.Size = new System.Drawing.Size(248, 20);
+            this.btnZerarTabelaEmpregados.Size = new System.Drawing.Size(244, 20);
             this.btnZerarTabelaEmpregados.TabIndex = 15;
             this.btnZerarTabelaEmpregados.Text = "Ze&rar Número de Itens";
             this.btnZerarTabelaEmpregados.UseVisualStyleBackColor = false;
@@ -2869,7 +2869,7 @@
             // 
             this.btnZerarTabelaSAP.BackColor = System.Drawing.Color.White;
             this.btnZerarTabelaSAP.ForeColor = System.Drawing.Color.IndianRed;
-            this.btnZerarTabelaSAP.Location = new System.Drawing.Point(3, 89);
+            this.btnZerarTabelaSAP.Location = new System.Drawing.Point(6, 89);
             this.btnZerarTabelaSAP.Name = "btnZerarTabelaSAP";
             this.btnZerarTabelaSAP.Size = new System.Drawing.Size(248, 20);
             this.btnZerarTabelaSAP.TabIndex = 11;
@@ -2881,7 +2881,7 @@
             // 
             this.btnZerarTabelaInventarioBens.BackColor = System.Drawing.Color.White;
             this.btnZerarTabelaInventarioBens.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.btnZerarTabelaInventarioBens.Location = new System.Drawing.Point(3, 43);
+            this.btnZerarTabelaInventarioBens.Location = new System.Drawing.Point(6, 43);
             this.btnZerarTabelaInventarioBens.Name = "btnZerarTabelaInventarioBens";
             this.btnZerarTabelaInventarioBens.Size = new System.Drawing.Size(248, 20);
             this.btnZerarTabelaInventarioBens.TabIndex = 10;

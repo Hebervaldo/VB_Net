@@ -32,6 +32,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMonitorCarregamentoDados));
             this.chkForcarUploadDownloadTabela = new System.Windows.Forms.CheckBox();
             this.txtNumeroIdentificacao = new System.Windows.Forms.TextBox();
@@ -90,10 +91,10 @@
             this.cmbTabelaInventarioBensUpload = new System.Windows.Forms.ComboBox();
             this.txtTabelaInventarioBensUpload = new System.Windows.Forms.TextBox();
             this.lsv1 = new System.Windows.Forms.ListView();
-            this.tmr1 = new System.Windows.Forms.Timer();
+            this.tmr1 = new System.Windows.Forms.Timer(this.components);
             this.mni1 = new System.Windows.Forms.MenuItem();
             this.mni2 = new System.Windows.Forms.MenuItem();
-            this.mnm1 = new System.Windows.Forms.MainMenu();
+            this.mnm1 = new System.Windows.Forms.MainMenu(this.components);
             this.tbpConfiguracoes.SuspendLayout();
             this.tbpMonitorTabelaApoio.SuspendLayout();
             this.tbc1.SuspendLayout();
@@ -106,9 +107,9 @@
             // 
             this.chkForcarUploadDownloadTabela.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.chkForcarUploadDownloadTabela.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.chkForcarUploadDownloadTabela.Location = new System.Drawing.Point(7, 176);
+            this.chkForcarUploadDownloadTabela.Location = new System.Drawing.Point(7, 178);
             this.chkForcarUploadDownloadTabela.Name = "chkForcarUploadDownloadTabela";
-            this.chkForcarUploadDownloadTabela.Size = new System.Drawing.Size(226, 18);
+            this.chkForcarUploadDownloadTabela.Size = new System.Drawing.Size(242, 18);
             this.chkForcarUploadDownloadTabela.TabIndex = 5;
             this.chkForcarUploadDownloadTabela.Text = "&Forçar Upload/Download da Tabela";
             this.chkForcarUploadDownloadTabela.Click += new System.EventHandler(this.chkForcarUploadDownloadTabela_Click);
@@ -119,7 +120,7 @@
             this.txtNumeroIdentificacao.ForeColor = System.Drawing.Color.Maroon;
             this.txtNumeroIdentificacao.Location = new System.Drawing.Point(166, 44);
             this.txtNumeroIdentificacao.Name = "txtNumeroIdentificacao";
-            this.txtNumeroIdentificacao.Size = new System.Drawing.Size(67, 21);
+            this.txtNumeroIdentificacao.Size = new System.Drawing.Size(86, 20);
             this.txtNumeroIdentificacao.TabIndex = 2;
             // 
             // lblNumeroIdentificacao
@@ -130,14 +131,15 @@
             this.lblNumeroIdentificacao.Location = new System.Drawing.Point(7, 44);
             this.lblNumeroIdentificacao.Name = "lblNumeroIdentificacao";
             this.lblNumeroIdentificacao.Size = new System.Drawing.Size(153, 18);
+            this.lblNumeroIdentificacao.TabIndex = 9;
             this.lblNumeroIdentificacao.Text = "Nº. de Identificação:";
             this.lblNumeroIdentificacao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // cmbPrioridadeDownloadTabelaApoio
             // 
-            this.cmbPrioridadeDownloadTabelaApoio.Location = new System.Drawing.Point(88, 124);
+            this.cmbPrioridadeDownloadTabelaApoio.Location = new System.Drawing.Point(88, 126);
             this.cmbPrioridadeDownloadTabelaApoio.Name = "cmbPrioridadeDownloadTabelaApoio";
-            this.cmbPrioridadeDownloadTabelaApoio.Size = new System.Drawing.Size(145, 22);
+            this.cmbPrioridadeDownloadTabelaApoio.Size = new System.Drawing.Size(161, 21);
             this.cmbPrioridadeDownloadTabelaApoio.TabIndex = 3;
             this.cmbPrioridadeDownloadTabelaApoio.TextChanged += new System.EventHandler(this.cmbPrioridadeDownloadTabelaApoio_TextChanged);
             // 
@@ -157,14 +159,15 @@
             this.tbpConfiguracoes.Controls.Add(this.txtRegistroIteracaoUploadTabelaInventarioBens);
             this.tbpConfiguracoes.Controls.Add(this.lblEnderecoWebService);
             this.tbpConfiguracoes.Controls.Add(this.txtEnderecoWebService);
-            this.tbpConfiguracoes.Location = new System.Drawing.Point(0, 0);
+            this.tbpConfiguracoes.Location = new System.Drawing.Point(4, 22);
             this.tbpConfiguracoes.Name = "tbpConfiguracoes";
-            this.tbpConfiguracoes.Size = new System.Drawing.Size(240, 245);
+            this.tbpConfiguracoes.Size = new System.Drawing.Size(255, 253);
+            this.tbpConfiguracoes.TabIndex = 0;
             this.tbpConfiguracoes.Text = "Configurações";
             // 
             // chkGerarPassoAutomatico
             // 
-            this.chkGerarPassoAutomatico.Location = new System.Drawing.Point(166, 221);
+            this.chkGerarPassoAutomatico.Location = new System.Drawing.Point(185, 219);
             this.chkGerarPassoAutomatico.Name = "chkGerarPassoAutomatico";
             this.chkGerarPassoAutomatico.Size = new System.Drawing.Size(67, 20);
             this.chkGerarPassoAutomatico.TabIndex = 7;
@@ -179,6 +182,7 @@
             this.lblIP.Location = new System.Drawing.Point(7, 221);
             this.lblIP.Name = "lblIP";
             this.lblIP.Size = new System.Drawing.Size(43, 18);
+            this.lblIP.TabIndex = 8;
             this.lblIP.Text = "IP:";
             this.lblIP.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -188,7 +192,7 @@
             this.txtIP.ForeColor = System.Drawing.Color.Maroon;
             this.txtIP.Location = new System.Drawing.Point(56, 221);
             this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(104, 21);
+            this.txtIP.Size = new System.Drawing.Size(123, 20);
             this.txtIP.TabIndex = 6;
             // 
             // lblRegistroIteracao
@@ -198,7 +202,8 @@
             this.lblRegistroIteracao.ForeColor = System.Drawing.Color.Navy;
             this.lblRegistroIteracao.Location = new System.Drawing.Point(7, 68);
             this.lblRegistroIteracao.Name = "lblRegistroIteracao";
-            this.lblRegistroIteracao.Size = new System.Drawing.Size(226, 18);
+            this.lblRegistroIteracao.Size = new System.Drawing.Size(245, 18);
+            this.lblRegistroIteracao.TabIndex = 10;
             this.lblRegistroIteracao.Text = "Registro por Iteração";
             this.lblRegistroIteracao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -209,7 +214,8 @@
             this.lblRegistroIteracaoDownloadTabelaApoio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblRegistroIteracaoDownloadTabelaApoio.Location = new System.Drawing.Point(7, 86);
             this.lblRegistroIteracaoDownloadTabelaApoio.Name = "lblRegistroIteracaoDownloadTabelaApoio";
-            this.lblRegistroIteracaoDownloadTabelaApoio.Size = new System.Drawing.Size(226, 18);
+            this.lblRegistroIteracaoDownloadTabelaApoio.Size = new System.Drawing.Size(245, 18);
+            this.lblRegistroIteracaoDownloadTabelaApoio.TabIndex = 11;
             this.lblRegistroIteracaoDownloadTabelaApoio.Text = "Download - Tabela Apoio";
             this.lblRegistroIteracaoDownloadTabelaApoio.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -217,7 +223,7 @@
             // 
             this.txtRegistroIteracaoDownloadTabelaApoio.Location = new System.Drawing.Point(7, 107);
             this.txtRegistroIteracaoDownloadTabelaApoio.Name = "txtRegistroIteracaoDownloadTabelaApoio";
-            this.txtRegistroIteracaoDownloadTabelaApoio.Size = new System.Drawing.Size(226, 21);
+            this.txtRegistroIteracaoDownloadTabelaApoio.Size = new System.Drawing.Size(245, 20);
             this.txtRegistroIteracaoDownloadTabelaApoio.TabIndex = 3;
             this.txtRegistroIteracaoDownloadTabelaApoio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRegistroIteracaoDownloadTabelaApoio_KeyPress);
             this.txtRegistroIteracaoDownloadTabelaApoio.LostFocus += new System.EventHandler(this.txtRegistroIteracaoDownloadTabelaApoio_LostFocus);
@@ -229,7 +235,8 @@
             this.lblRegistroIteracaoDownloadTabelaInventarioBens.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblRegistroIteracaoDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 131);
             this.lblRegistroIteracaoDownloadTabelaInventarioBens.Name = "lblRegistroIteracaoDownloadTabelaInventarioBens";
-            this.lblRegistroIteracaoDownloadTabelaInventarioBens.Size = new System.Drawing.Size(226, 18);
+            this.lblRegistroIteracaoDownloadTabelaInventarioBens.Size = new System.Drawing.Size(245, 18);
+            this.lblRegistroIteracaoDownloadTabelaInventarioBens.TabIndex = 12;
             this.lblRegistroIteracaoDownloadTabelaInventarioBens.Text = "Download - Tabela Inventário Bens";
             this.lblRegistroIteracaoDownloadTabelaInventarioBens.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -237,7 +244,7 @@
             // 
             this.txtRegistroIteracaoDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 152);
             this.txtRegistroIteracaoDownloadTabelaInventarioBens.Name = "txtRegistroIteracaoDownloadTabelaInventarioBens";
-            this.txtRegistroIteracaoDownloadTabelaInventarioBens.Size = new System.Drawing.Size(226, 21);
+            this.txtRegistroIteracaoDownloadTabelaInventarioBens.Size = new System.Drawing.Size(245, 20);
             this.txtRegistroIteracaoDownloadTabelaInventarioBens.TabIndex = 4;
             this.txtRegistroIteracaoDownloadTabelaInventarioBens.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRegistroIteracaoDownloadTabelaInventarioBens_KeyPress);
             this.txtRegistroIteracaoDownloadTabelaInventarioBens.LostFocus += new System.EventHandler(this.txtRegistroIteracaoDownloadTabelaInventarioBens_LostFocus);
@@ -249,7 +256,8 @@
             this.lblRegistroIteracaoUploadTabelaInventarioBens.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblRegistroIteracaoUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 176);
             this.lblRegistroIteracaoUploadTabelaInventarioBens.Name = "lblRegistroIteracaoUploadTabelaInventarioBens";
-            this.lblRegistroIteracaoUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 18);
+            this.lblRegistroIteracaoUploadTabelaInventarioBens.Size = new System.Drawing.Size(245, 18);
+            this.lblRegistroIteracaoUploadTabelaInventarioBens.TabIndex = 13;
             this.lblRegistroIteracaoUploadTabelaInventarioBens.Text = "Upload - Tabela Inventário Bens";
             this.lblRegistroIteracaoUploadTabelaInventarioBens.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -257,7 +265,7 @@
             // 
             this.txtRegistroIteracaoUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 197);
             this.txtRegistroIteracaoUploadTabelaInventarioBens.Name = "txtRegistroIteracaoUploadTabelaInventarioBens";
-            this.txtRegistroIteracaoUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 21);
+            this.txtRegistroIteracaoUploadTabelaInventarioBens.Size = new System.Drawing.Size(245, 20);
             this.txtRegistroIteracaoUploadTabelaInventarioBens.TabIndex = 5;
             this.txtRegistroIteracaoUploadTabelaInventarioBens.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRegistroIteracaoUploadTabelaInventarioBens_KeyPress);
             this.txtRegistroIteracaoUploadTabelaInventarioBens.LostFocus += new System.EventHandler(this.txtRegistroIteracaoUploadTabelaInventarioBens_LostFocus);
@@ -269,7 +277,8 @@
             this.lblEnderecoWebService.ForeColor = System.Drawing.Color.Navy;
             this.lblEnderecoWebService.Location = new System.Drawing.Point(4, 2);
             this.lblEnderecoWebService.Name = "lblEnderecoWebService";
-            this.lblEnderecoWebService.Size = new System.Drawing.Size(229, 18);
+            this.lblEnderecoWebService.Size = new System.Drawing.Size(248, 18);
+            this.lblEnderecoWebService.TabIndex = 14;
             this.lblEnderecoWebService.Text = "Endereço do WebService";
             this.lblEnderecoWebService.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -277,7 +286,7 @@
             // 
             this.txtEnderecoWebService.Location = new System.Drawing.Point(7, 20);
             this.txtEnderecoWebService.Name = "txtEnderecoWebService";
-            this.txtEnderecoWebService.Size = new System.Drawing.Size(226, 21);
+            this.txtEnderecoWebService.Size = new System.Drawing.Size(245, 20);
             this.txtEnderecoWebService.TabIndex = 1;
             this.txtEnderecoWebService.LostFocus += new System.EventHandler(this.txtEnderecoWebService_LostFocus);
             // 
@@ -285,9 +294,10 @@
             // 
             this.lblPrioridadeDownloadTabelaApoio.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblPrioridadeDownloadTabelaApoio.ForeColor = System.Drawing.Color.Navy;
-            this.lblPrioridadeDownloadTabelaApoio.Location = new System.Drawing.Point(7, 128);
+            this.lblPrioridadeDownloadTabelaApoio.Location = new System.Drawing.Point(7, 130);
             this.lblPrioridadeDownloadTabelaApoio.Name = "lblPrioridadeDownloadTabelaApoio";
             this.lblPrioridadeDownloadTabelaApoio.Size = new System.Drawing.Size(75, 18);
+            this.lblPrioridadeDownloadTabelaApoio.TabIndex = 12;
             this.lblPrioridadeDownloadTabelaApoio.Text = "Prioridade:";
             this.lblPrioridadeDownloadTabelaApoio.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -295,7 +305,7 @@
             // 
             this.chkIteracoesContinuas.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.chkIteracoesContinuas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.chkIteracoesContinuas.Location = new System.Drawing.Point(7, 200);
+            this.chkIteracoesContinuas.Location = new System.Drawing.Point(7, 202);
             this.chkIteracoesContinuas.Name = "chkIteracoesContinuas";
             this.chkIteracoesContinuas.Size = new System.Drawing.Size(143, 18);
             this.chkIteracoesContinuas.TabIndex = 6;
@@ -304,9 +314,9 @@
             // 
             // cmbPrioridadeUploadTabelaInventarioBens
             // 
-            this.cmbPrioridadeUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 101);
+            this.cmbPrioridadeUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 103);
             this.cmbPrioridadeUploadTabelaInventarioBens.Name = "cmbPrioridadeUploadTabelaInventarioBens";
-            this.cmbPrioridadeUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 22);
+            this.cmbPrioridadeUploadTabelaInventarioBens.Size = new System.Drawing.Size(242, 21);
             this.cmbPrioridadeUploadTabelaInventarioBens.TabIndex = 2;
             this.cmbPrioridadeUploadTabelaInventarioBens.TextChanged += new System.EventHandler(this.cmbPrioridadeUploadTabelaInventarioBens_TextChanged);
             // 
@@ -314,25 +324,28 @@
             // 
             this.lblPrioridadeUploadTabelaInventarioBens.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblPrioridadeUploadTabelaInventarioBens.ForeColor = System.Drawing.Color.Navy;
-            this.lblPrioridadeUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 80);
+            this.lblPrioridadeUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 82);
             this.lblPrioridadeUploadTabelaInventarioBens.Name = "lblPrioridadeUploadTabelaInventarioBens";
-            this.lblPrioridadeUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 18);
+            this.lblPrioridadeUploadTabelaInventarioBens.Size = new System.Drawing.Size(242, 18);
+            this.lblPrioridadeUploadTabelaInventarioBens.TabIndex = 5;
             this.lblPrioridadeUploadTabelaInventarioBens.Text = "Prioridade:";
             this.lblPrioridadeUploadTabelaInventarioBens.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // prgUploadTabelaInventarioBens
             // 
-            this.prgUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 49);
+            this.prgUploadTabelaInventarioBens.Location = new System.Drawing.Point(8, 51);
             this.prgUploadTabelaInventarioBens.Name = "prgUploadTabelaInventarioBens";
-            this.prgUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 10);
+            this.prgUploadTabelaInventarioBens.Size = new System.Drawing.Size(241, 10);
+            this.prgUploadTabelaInventarioBens.TabIndex = 7;
             // 
             // lblProgressoUploadTabelaInventarioBens
             // 
             this.lblProgressoUploadTabelaInventarioBens.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblProgressoUploadTabelaInventarioBens.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblProgressoUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 62);
+            this.lblProgressoUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 64);
             this.lblProgressoUploadTabelaInventarioBens.Name = "lblProgressoUploadTabelaInventarioBens";
-            this.lblProgressoUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 18);
+            this.lblProgressoUploadTabelaInventarioBens.Size = new System.Drawing.Size(242, 18);
+            this.lblProgressoUploadTabelaInventarioBens.TabIndex = 6;
             this.lblProgressoUploadTabelaInventarioBens.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tbpMonitorTabelaApoio
@@ -349,18 +362,19 @@
             this.tbpMonitorTabelaApoio.Controls.Add(this.lblTabelaApoio);
             this.tbpMonitorTabelaApoio.Controls.Add(this.prgDownloadTabelaApoio);
             this.tbpMonitorTabelaApoio.Controls.Add(this.btnDownloadTabelaApoio);
-            this.tbpMonitorTabelaApoio.Location = new System.Drawing.Point(0, 0);
+            this.tbpMonitorTabelaApoio.Location = new System.Drawing.Point(4, 22);
             this.tbpMonitorTabelaApoio.Name = "tbpMonitorTabelaApoio";
-            this.tbpMonitorTabelaApoio.Size = new System.Drawing.Size(232, 242);
+            this.tbpMonitorTabelaApoio.Size = new System.Drawing.Size(255, 253);
+            this.tbpMonitorTabelaApoio.TabIndex = 4;
             this.tbpMonitorTabelaApoio.Text = "Apoio";
             // 
             // chkForcarDesligamento
             // 
             this.chkForcarDesligamento.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.chkForcarDesligamento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.chkForcarDesligamento.Location = new System.Drawing.Point(156, 200);
+            this.chkForcarDesligamento.Location = new System.Drawing.Point(156, 202);
             this.chkForcarDesligamento.Name = "chkForcarDesligamento";
-            this.chkForcarDesligamento.Size = new System.Drawing.Size(77, 20);
+            this.chkForcarDesligamento.Size = new System.Drawing.Size(93, 20);
             this.chkForcarDesligamento.TabIndex = 11;
             this.chkForcarDesligamento.Text = "Desligar";
             this.chkForcarDesligamento.Click += new System.EventHandler(this.chkForcarDesligamento_Click);
@@ -369,7 +383,7 @@
             // 
             this.cmbTabelaApoioApresentacao.Location = new System.Drawing.Point(7, 38);
             this.cmbTabelaApoioApresentacao.Name = "cmbTabelaApoioApresentacao";
-            this.cmbTabelaApoioApresentacao.Size = new System.Drawing.Size(226, 22);
+            this.cmbTabelaApoioApresentacao.Size = new System.Drawing.Size(242, 21);
             this.cmbTabelaApoioApresentacao.TabIndex = 1;
             this.cmbTabelaApoioApresentacao.LostFocus += new System.EventHandler(this.cmbTabelaApoioApresentacao_LostFocus);
             this.cmbTabelaApoioApresentacao.SelectedIndexChanged += new System.EventHandler(this.cmbTabelaApoioApresentacao_SelectedIndexChanged);
@@ -379,9 +393,9 @@
             // 
             this.chkIgnorarCodigoEspalhamentoTabela.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.chkIgnorarCodigoEspalhamentoTabela.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.chkIgnorarCodigoEspalhamentoTabela.Location = new System.Drawing.Point(7, 152);
+            this.chkIgnorarCodigoEspalhamentoTabela.Location = new System.Drawing.Point(7, 154);
             this.chkIgnorarCodigoEspalhamentoTabela.Name = "chkIgnorarCodigoEspalhamentoTabela";
-            this.chkIgnorarCodigoEspalhamentoTabela.Size = new System.Drawing.Size(226, 18);
+            this.chkIgnorarCodigoEspalhamentoTabela.Size = new System.Drawing.Size(242, 18);
             this.chkIgnorarCodigoEspalhamentoTabela.TabIndex = 4;
             this.chkIgnorarCodigoEspalhamentoTabela.Text = "&Ignorar Hash Code da Tabela";
             this.chkIgnorarCodigoEspalhamentoTabela.Click += new System.EventHandler(this.chkIgnorarCodigoEspalhamentoTabela_Click);
@@ -390,20 +404,22 @@
             // 
             this.btnAvancarDownloadTabelaApoio.BackColor = System.Drawing.Color.White;
             this.btnAvancarDownloadTabelaApoio.ForeColor = System.Drawing.Color.Navy;
-            this.btnAvancarDownloadTabelaApoio.Location = new System.Drawing.Point(7, 224);
+            this.btnAvancarDownloadTabelaApoio.Location = new System.Drawing.Point(7, 226);
             this.btnAvancarDownloadTabelaApoio.Name = "btnAvancarDownloadTabelaApoio";
-            this.btnAvancarDownloadTabelaApoio.Size = new System.Drawing.Size(226, 18);
+            this.btnAvancarDownloadTabelaApoio.Size = new System.Drawing.Size(242, 20);
             this.btnAvancarDownloadTabelaApoio.TabIndex = 7;
             this.btnAvancarDownloadTabelaApoio.Text = "&Avançar Download da Tabela";
+            this.btnAvancarDownloadTabelaApoio.UseVisualStyleBackColor = false;
             this.btnAvancarDownloadTabelaApoio.Click += new System.EventHandler(this.btnAvancarDownloadTabelaApoio_Click);
             // 
             // lblProgressoDownloadTabelaApoio
             // 
             this.lblProgressoDownloadTabelaApoio.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblProgressoDownloadTabelaApoio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblProgressoDownloadTabelaApoio.Location = new System.Drawing.Point(7, 103);
+            this.lblProgressoDownloadTabelaApoio.Location = new System.Drawing.Point(7, 105);
             this.lblProgressoDownloadTabelaApoio.Name = "lblProgressoDownloadTabelaApoio";
-            this.lblProgressoDownloadTabelaApoio.Size = new System.Drawing.Size(226, 18);
+            this.lblProgressoDownloadTabelaApoio.Size = new System.Drawing.Size(242, 18);
+            this.lblProgressoDownloadTabelaApoio.TabIndex = 13;
             this.lblProgressoDownloadTabelaApoio.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblTabelaApoio
@@ -414,14 +430,16 @@
             this.lblTabelaApoio.Location = new System.Drawing.Point(7, 4);
             this.lblTabelaApoio.Name = "lblTabelaApoio";
             this.lblTabelaApoio.Size = new System.Drawing.Size(226, 18);
+            this.lblTabelaApoio.TabIndex = 14;
             this.lblTabelaApoio.Text = "Tabelas de Apoio";
             this.lblTabelaApoio.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // prgDownloadTabelaApoio
             // 
-            this.prgDownloadTabelaApoio.Location = new System.Drawing.Point(7, 90);
+            this.prgDownloadTabelaApoio.Location = new System.Drawing.Point(7, 92);
             this.prgDownloadTabelaApoio.Name = "prgDownloadTabelaApoio";
-            this.prgDownloadTabelaApoio.Size = new System.Drawing.Size(226, 10);
+            this.prgDownloadTabelaApoio.Size = new System.Drawing.Size(242, 10);
+            this.prgDownloadTabelaApoio.TabIndex = 15;
             // 
             // btnDownloadTabelaApoio
             // 
@@ -429,9 +447,10 @@
             this.btnDownloadTabelaApoio.ForeColor = System.Drawing.Color.Maroon;
             this.btnDownloadTabelaApoio.Location = new System.Drawing.Point(7, 66);
             this.btnDownloadTabelaApoio.Name = "btnDownloadTabelaApoio";
-            this.btnDownloadTabelaApoio.Size = new System.Drawing.Size(226, 18);
+            this.btnDownloadTabelaApoio.Size = new System.Drawing.Size(242, 20);
             this.btnDownloadTabelaApoio.TabIndex = 2;
             this.btnDownloadTabelaApoio.Text = "&Download";
+            this.btnDownloadTabelaApoio.UseVisualStyleBackColor = false;
             this.btnDownloadTabelaApoio.Click += new System.EventHandler(this.btnDownloadTabelaApoio_Click);
             // 
             // tbc1
@@ -444,7 +463,7 @@
             this.tbc1.Location = new System.Drawing.Point(0, 0);
             this.tbc1.Name = "tbc1";
             this.tbc1.SelectedIndex = 0;
-            this.tbc1.Size = new System.Drawing.Size(240, 268);
+            this.tbc1.Size = new System.Drawing.Size(263, 279);
             this.tbc1.TabIndex = 0;
             this.tbc1.SelectedIndexChanged += new System.EventHandler(this.tbc1_SelectedIndexChanged);
             // 
@@ -456,16 +475,17 @@
             this.tbpMonitorTabelaInventarioBensDownload.Controls.Add(this.prgDownloadTabelaInventarioBens);
             this.tbpMonitorTabelaInventarioBensDownload.Controls.Add(this.btnDownloadTabelaInventarioBens);
             this.tbpMonitorTabelaInventarioBensDownload.Controls.Add(this.lblTabelaInventarioBensDownload);
-            this.tbpMonitorTabelaInventarioBensDownload.Location = new System.Drawing.Point(0, 0);
+            this.tbpMonitorTabelaInventarioBensDownload.Location = new System.Drawing.Point(4, 22);
             this.tbpMonitorTabelaInventarioBensDownload.Name = "tbpMonitorTabelaInventarioBensDownload";
-            this.tbpMonitorTabelaInventarioBensDownload.Size = new System.Drawing.Size(232, 242);
+            this.tbpMonitorTabelaInventarioBensDownload.Size = new System.Drawing.Size(255, 253);
+            this.tbpMonitorTabelaInventarioBensDownload.TabIndex = 1;
             this.tbpMonitorTabelaInventarioBensDownload.Text = "Inventário - Download";
             // 
             // cmbPrioridadeDownloadTabelaInventarioBens
             // 
-            this.cmbPrioridadeDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 101);
+            this.cmbPrioridadeDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 122);
             this.cmbPrioridadeDownloadTabelaInventarioBens.Name = "cmbPrioridadeDownloadTabelaInventarioBens";
-            this.cmbPrioridadeDownloadTabelaInventarioBens.Size = new System.Drawing.Size(226, 22);
+            this.cmbPrioridadeDownloadTabelaInventarioBens.Size = new System.Drawing.Size(242, 21);
             this.cmbPrioridadeDownloadTabelaInventarioBens.TabIndex = 2;
             this.cmbPrioridadeDownloadTabelaInventarioBens.TextChanged += new System.EventHandler(this.cmbPrioridadeDownloadTabelaInventarioBens_TextChanged);
             // 
@@ -473,9 +493,10 @@
             // 
             this.lblPrioridadeDownloadTabelaInventarioBens.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblPrioridadeDownloadTabelaInventarioBens.ForeColor = System.Drawing.Color.Navy;
-            this.lblPrioridadeDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 80);
+            this.lblPrioridadeDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 101);
             this.lblPrioridadeDownloadTabelaInventarioBens.Name = "lblPrioridadeDownloadTabelaInventarioBens";
-            this.lblPrioridadeDownloadTabelaInventarioBens.Size = new System.Drawing.Size(226, 18);
+            this.lblPrioridadeDownloadTabelaInventarioBens.Size = new System.Drawing.Size(242, 18);
+            this.lblPrioridadeDownloadTabelaInventarioBens.TabIndex = 3;
             this.lblPrioridadeDownloadTabelaInventarioBens.Text = "Prioridade:";
             this.lblPrioridadeDownloadTabelaInventarioBens.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -483,16 +504,18 @@
             // 
             this.lblProgressoDownloadTabelaInventarioBens.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblProgressoDownloadTabelaInventarioBens.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblProgressoDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 62);
+            this.lblProgressoDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 83);
             this.lblProgressoDownloadTabelaInventarioBens.Name = "lblProgressoDownloadTabelaInventarioBens";
             this.lblProgressoDownloadTabelaInventarioBens.Size = new System.Drawing.Size(226, 18);
+            this.lblProgressoDownloadTabelaInventarioBens.TabIndex = 4;
             this.lblProgressoDownloadTabelaInventarioBens.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // prgDownloadTabelaInventarioBens
             // 
-            this.prgDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 49);
+            this.prgDownloadTabelaInventarioBens.Location = new System.Drawing.Point(10, 70);
             this.prgDownloadTabelaInventarioBens.Name = "prgDownloadTabelaInventarioBens";
-            this.prgDownloadTabelaInventarioBens.Size = new System.Drawing.Size(226, 10);
+            this.prgDownloadTabelaInventarioBens.Size = new System.Drawing.Size(239, 10);
+            this.prgDownloadTabelaInventarioBens.TabIndex = 5;
             // 
             // btnDownloadTabelaInventarioBens
             // 
@@ -500,9 +523,10 @@
             this.btnDownloadTabelaInventarioBens.ForeColor = System.Drawing.Color.Maroon;
             this.btnDownloadTabelaInventarioBens.Location = new System.Drawing.Point(7, 25);
             this.btnDownloadTabelaInventarioBens.Name = "btnDownloadTabelaInventarioBens";
-            this.btnDownloadTabelaInventarioBens.Size = new System.Drawing.Size(226, 18);
+            this.btnDownloadTabelaInventarioBens.Size = new System.Drawing.Size(242, 20);
             this.btnDownloadTabelaInventarioBens.TabIndex = 1;
             this.btnDownloadTabelaInventarioBens.Text = "&Download";
+            this.btnDownloadTabelaInventarioBens.UseVisualStyleBackColor = false;
             this.btnDownloadTabelaInventarioBens.Click += new System.EventHandler(this.btnDownloadTabelaInventarioBens_Click);
             // 
             // lblTabelaInventarioBensDownload
@@ -513,6 +537,7 @@
             this.lblTabelaInventarioBensDownload.Location = new System.Drawing.Point(7, 4);
             this.lblTabelaInventarioBensDownload.Name = "lblTabelaInventarioBensDownload";
             this.lblTabelaInventarioBensDownload.Size = new System.Drawing.Size(226, 18);
+            this.lblTabelaInventarioBensDownload.TabIndex = 6;
             this.lblTabelaInventarioBensDownload.Text = "Tabela de Inventario de Bens";
             this.lblTabelaInventarioBensDownload.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -528,18 +553,20 @@
             this.tbpMonitorTabelaInventarioBensUpload.Controls.Add(this.lblProgressoUploadTabelaInventarioBens);
             this.tbpMonitorTabelaInventarioBensUpload.Controls.Add(this.prgUploadTabelaInventarioBens);
             this.tbpMonitorTabelaInventarioBensUpload.Controls.Add(this.btnUploadTabelaInventarioBens);
-            this.tbpMonitorTabelaInventarioBensUpload.Location = new System.Drawing.Point(0, 0);
+            this.tbpMonitorTabelaInventarioBensUpload.Location = new System.Drawing.Point(4, 22);
             this.tbpMonitorTabelaInventarioBensUpload.Name = "tbpMonitorTabelaInventarioBensUpload";
-            this.tbpMonitorTabelaInventarioBensUpload.Size = new System.Drawing.Size(240, 245);
+            this.tbpMonitorTabelaInventarioBensUpload.Size = new System.Drawing.Size(255, 253);
+            this.tbpMonitorTabelaInventarioBensUpload.TabIndex = 2;
             this.tbpMonitorTabelaInventarioBensUpload.Text = "Inventário - Upload";
             // 
             // lblIntermediarioUploadTabelaInventarioBensDado
             // 
             this.lblIntermediarioUploadTabelaInventarioBensDado.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblIntermediarioUploadTabelaInventarioBensDado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblIntermediarioUploadTabelaInventarioBensDado.Location = new System.Drawing.Point(7, 194);
+            this.lblIntermediarioUploadTabelaInventarioBensDado.Location = new System.Drawing.Point(7, 196);
             this.lblIntermediarioUploadTabelaInventarioBensDado.Name = "lblIntermediarioUploadTabelaInventarioBensDado";
-            this.lblIntermediarioUploadTabelaInventarioBensDado.Size = new System.Drawing.Size(226, 40);
+            this.lblIntermediarioUploadTabelaInventarioBensDado.Size = new System.Drawing.Size(242, 40);
+            this.lblIntermediarioUploadTabelaInventarioBensDado.TabIndex = 0;
             this.lblIntermediarioUploadTabelaInventarioBensDado.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblIntermediarioUploadTabelaInventarioBensCampo
@@ -549,15 +576,17 @@
             this.lblIntermediarioUploadTabelaInventarioBensCampo.Location = new System.Drawing.Point(7, 176);
             this.lblIntermediarioUploadTabelaInventarioBensCampo.Name = "lblIntermediarioUploadTabelaInventarioBensCampo";
             this.lblIntermediarioUploadTabelaInventarioBensCampo.Size = new System.Drawing.Size(226, 18);
+            this.lblIntermediarioUploadTabelaInventarioBensCampo.TabIndex = 1;
             this.lblIntermediarioUploadTabelaInventarioBensCampo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblIntermediarioUploadTabelaInventarioBens
             // 
             this.lblIntermediarioUploadTabelaInventarioBens.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblIntermediarioUploadTabelaInventarioBens.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lblIntermediarioUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 136);
+            this.lblIntermediarioUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 138);
             this.lblIntermediarioUploadTabelaInventarioBens.Name = "lblIntermediarioUploadTabelaInventarioBens";
-            this.lblIntermediarioUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 40);
+            this.lblIntermediarioUploadTabelaInventarioBens.Size = new System.Drawing.Size(242, 40);
+            this.lblIntermediarioUploadTabelaInventarioBens.TabIndex = 2;
             this.lblIntermediarioUploadTabelaInventarioBens.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblTabelaInventarioBensUpload
@@ -568,6 +597,7 @@
             this.lblTabelaInventarioBensUpload.Location = new System.Drawing.Point(7, 4);
             this.lblTabelaInventarioBensUpload.Name = "lblTabelaInventarioBensUpload";
             this.lblTabelaInventarioBensUpload.Size = new System.Drawing.Size(226, 18);
+            this.lblTabelaInventarioBensUpload.TabIndex = 3;
             this.lblTabelaInventarioBensUpload.Text = "Tabela de Inventario de Bens";
             this.lblTabelaInventarioBensUpload.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -575,7 +605,8 @@
             // 
             this.prgIntermediarioUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 128);
             this.prgIntermediarioUploadTabelaInventarioBens.Name = "prgIntermediarioUploadTabelaInventarioBens";
-            this.prgIntermediarioUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 5);
+            this.prgIntermediarioUploadTabelaInventarioBens.Size = new System.Drawing.Size(242, 5);
+            this.prgIntermediarioUploadTabelaInventarioBens.TabIndex = 4;
             // 
             // btnUploadTabelaInventarioBens
             // 
@@ -583,9 +614,10 @@
             this.btnUploadTabelaInventarioBens.ForeColor = System.Drawing.Color.Maroon;
             this.btnUploadTabelaInventarioBens.Location = new System.Drawing.Point(7, 25);
             this.btnUploadTabelaInventarioBens.Name = "btnUploadTabelaInventarioBens";
-            this.btnUploadTabelaInventarioBens.Size = new System.Drawing.Size(226, 18);
+            this.btnUploadTabelaInventarioBens.Size = new System.Drawing.Size(242, 20);
             this.btnUploadTabelaInventarioBens.TabIndex = 1;
             this.btnUploadTabelaInventarioBens.Text = "&Upload";
+            this.btnUploadTabelaInventarioBens.UseVisualStyleBackColor = false;
             this.btnUploadTabelaInventarioBens.Click += new System.EventHandler(this.btnUploadTabelaInventarioBensPrincipal_Click);
             // 
             // tbpTabelaInventarioBensUpload
@@ -599,9 +631,10 @@
             this.tbpTabelaInventarioBensUpload.Controls.Add(this.cmbTabelaInventarioBensUpload);
             this.tbpTabelaInventarioBensUpload.Controls.Add(this.txtTabelaInventarioBensUpload);
             this.tbpTabelaInventarioBensUpload.Controls.Add(this.lsv1);
-            this.tbpTabelaInventarioBensUpload.Location = new System.Drawing.Point(0, 0);
+            this.tbpTabelaInventarioBensUpload.Location = new System.Drawing.Point(4, 22);
             this.tbpTabelaInventarioBensUpload.Name = "tbpTabelaInventarioBensUpload";
-            this.tbpTabelaInventarioBensUpload.Size = new System.Drawing.Size(232, 242);
+            this.tbpTabelaInventarioBensUpload.Size = new System.Drawing.Size(255, 253);
+            this.tbpTabelaInventarioBensUpload.TabIndex = 3;
             this.tbpTabelaInventarioBensUpload.Text = "Tabela Inventário - Upload";
             // 
             // btnMarcarDesmarcarTodos
@@ -609,37 +642,42 @@
             this.btnMarcarDesmarcarTodos.BackColor = System.Drawing.Color.White;
             this.btnMarcarDesmarcarTodos.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.btnMarcarDesmarcarTodos.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btnMarcarDesmarcarTodos.Location = new System.Drawing.Point(103, 224);
+            this.btnMarcarDesmarcarTodos.Location = new System.Drawing.Point(135, 224);
             this.btnMarcarDesmarcarTodos.Name = "btnMarcarDesmarcarTodos";
-            this.btnMarcarDesmarcarTodos.Size = new System.Drawing.Size(129, 18);
+            this.btnMarcarDesmarcarTodos.Size = new System.Drawing.Size(121, 20);
             this.btnMarcarDesmarcarTodos.TabIndex = 5;
             this.btnMarcarDesmarcarTodos.Text = "&Marcar/Desm. Todos";
+            this.btnMarcarDesmarcarTodos.UseVisualStyleBackColor = false;
             this.btnMarcarDesmarcarTodos.Click += new System.EventHandler(this.btnMarcarDesmarcarTodos_Click);
             // 
             // lblMostrarIteracoesInventarioBensUpload
             // 
-            this.lblMostrarIteracoesInventarioBensUpload.Location = new System.Drawing.Point(122, 176);
+            this.lblMostrarIteracoesInventarioBensUpload.Location = new System.Drawing.Point(123, 176);
             this.lblMostrarIteracoesInventarioBensUpload.Name = "lblMostrarIteracoesInventarioBensUpload";
-            this.lblMostrarIteracoesInventarioBensUpload.Size = new System.Drawing.Size(111, 18);
+            this.lblMostrarIteracoesInventarioBensUpload.Size = new System.Drawing.Size(126, 18);
+            this.lblMostrarIteracoesInventarioBensUpload.TabIndex = 6;
             // 
             // lblCampoIteracoesInventarioBensUpload
             // 
             this.lblCampoIteracoesInventarioBensUpload.Location = new System.Drawing.Point(7, 176);
             this.lblCampoIteracoesInventarioBensUpload.Name = "lblCampoIteracoesInventarioBensUpload";
             this.lblCampoIteracoesInventarioBensUpload.Size = new System.Drawing.Size(110, 18);
+            this.lblCampoIteracoesInventarioBensUpload.TabIndex = 7;
             this.lblCampoIteracoesInventarioBensUpload.Text = "Iterações:";
             // 
             // lblMostrarTotalInventarioBensUpload
             // 
             this.lblMostrarTotalInventarioBensUpload.Location = new System.Drawing.Point(122, 158);
             this.lblMostrarTotalInventarioBensUpload.Name = "lblMostrarTotalInventarioBensUpload";
-            this.lblMostrarTotalInventarioBensUpload.Size = new System.Drawing.Size(111, 18);
+            this.lblMostrarTotalInventarioBensUpload.Size = new System.Drawing.Size(127, 18);
+            this.lblMostrarTotalInventarioBensUpload.TabIndex = 8;
             // 
             // lblCampoTotalInventarioBensUpload
             // 
             this.lblCampoTotalInventarioBensUpload.Location = new System.Drawing.Point(7, 158);
             this.lblCampoTotalInventarioBensUpload.Name = "lblCampoTotalInventarioBensUpload";
             this.lblCampoTotalInventarioBensUpload.Size = new System.Drawing.Size(110, 18);
+            this.lblCampoTotalInventarioBensUpload.TabIndex = 9;
             this.lblCampoTotalInventarioBensUpload.Text = "Total de Bens:";
             // 
             // btnCarregarListaTabelaInventarioBensUpload
@@ -649,24 +687,25 @@
             this.btnCarregarListaTabelaInventarioBensUpload.ForeColor = System.Drawing.Color.Green;
             this.btnCarregarListaTabelaInventarioBensUpload.Location = new System.Drawing.Point(7, 224);
             this.btnCarregarListaTabelaInventarioBensUpload.Name = "btnCarregarListaTabelaInventarioBensUpload";
-            this.btnCarregarListaTabelaInventarioBensUpload.Size = new System.Drawing.Size(90, 18);
+            this.btnCarregarListaTabelaInventarioBensUpload.Size = new System.Drawing.Size(121, 20);
             this.btnCarregarListaTabelaInventarioBensUpload.TabIndex = 4;
             this.btnCarregarListaTabelaInventarioBensUpload.Text = "&Carregar Lista";
+            this.btnCarregarListaTabelaInventarioBensUpload.UseVisualStyleBackColor = false;
             this.btnCarregarListaTabelaInventarioBensUpload.Click += new System.EventHandler(this.btnCarregarListaTabelaInventarioBensUpload_Click);
             // 
             // cmbTabelaInventarioBensUpload
             // 
             this.cmbTabelaInventarioBensUpload.Location = new System.Drawing.Point(7, 197);
             this.cmbTabelaInventarioBensUpload.Name = "cmbTabelaInventarioBensUpload";
-            this.cmbTabelaInventarioBensUpload.Size = new System.Drawing.Size(110, 22);
+            this.cmbTabelaInventarioBensUpload.Size = new System.Drawing.Size(121, 21);
             this.cmbTabelaInventarioBensUpload.TabIndex = 2;
             this.cmbTabelaInventarioBensUpload.GotFocus += new System.EventHandler(this.cmbTabelaInventarioBensUpload_GotFocus);
             // 
             // txtTabelaInventarioBensUpload
             // 
-            this.txtTabelaInventarioBensUpload.Location = new System.Drawing.Point(122, 197);
+            this.txtTabelaInventarioBensUpload.Location = new System.Drawing.Point(135, 197);
             this.txtTabelaInventarioBensUpload.Name = "txtTabelaInventarioBensUpload";
-            this.txtTabelaInventarioBensUpload.Size = new System.Drawing.Size(111, 21);
+            this.txtTabelaInventarioBensUpload.Size = new System.Drawing.Size(114, 20);
             this.txtTabelaInventarioBensUpload.TabIndex = 3;
             this.txtTabelaInventarioBensUpload.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTabelaInventarioBensUpload_KeyPress);
             // 
@@ -675,8 +714,9 @@
             this.lsv1.CheckBoxes = true;
             this.lsv1.Location = new System.Drawing.Point(7, 7);
             this.lsv1.Name = "lsv1";
-            this.lsv1.Size = new System.Drawing.Size(226, 148);
+            this.lsv1.Size = new System.Drawing.Size(242, 148);
             this.lsv1.TabIndex = 1;
+            this.lsv1.UseCompatibleStateImageBehavior = false;
             this.lsv1.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.lsv1_ColumnClick);
             // 
             // tmr1
@@ -687,25 +727,28 @@
             // 
             // mni1
             // 
+            this.mni1.Index = 0;
             this.mni1.Text = "Form. Padrão";
             this.mni1.Click += new System.EventHandler(this.mni1_Click);
             // 
             // mni2
             // 
+            this.mni2.Index = 1;
             this.mni2.Text = "";
             this.mni2.Click += new System.EventHandler(this.mni2_Click);
             // 
             // mnm1
             // 
-            this.mnm1.MenuItems.Add(this.mni1);
-            this.mnm1.MenuItems.Add(this.mni2);
+            this.mnm1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.mni1,
+            this.mni2});
             // 
             // frmMonitorCarregamentoDados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            this.ClientSize = new System.Drawing.Size(270, 288);
             this.Controls.Add(this.tbc1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Menu = this.mnm1;
@@ -715,11 +758,13 @@
             this.Closing += new System.ComponentModel.CancelEventHandler(this.frmMonitorCarregamentoDados_Closing);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmMonitorCarregamentoDados_KeyDown);
             this.tbpConfiguracoes.ResumeLayout(false);
+            this.tbpConfiguracoes.PerformLayout();
             this.tbpMonitorTabelaApoio.ResumeLayout(false);
             this.tbc1.ResumeLayout(false);
             this.tbpMonitorTabelaInventarioBensDownload.ResumeLayout(false);
             this.tbpMonitorTabelaInventarioBensUpload.ResumeLayout(false);
             this.tbpTabelaInventarioBensUpload.ResumeLayout(false);
+            this.tbpTabelaInventarioBensUpload.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -341,10 +341,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://SrvPatrimonio/Todos/WebServicoBancoDados.asmx">
+    <WebReferenceUrl Include="http://localhost:48534/Todos/WebServicoBancoDados.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\WebService\</RelPath>
-      <UpdateFromURL>http://SrvPatrimonio/Todos/WebServicoBancoDados.asmx</UpdateFromURL>
+      <UpdateFromURL>http://localhost:48534/Todos/WebServicoBancoDados.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

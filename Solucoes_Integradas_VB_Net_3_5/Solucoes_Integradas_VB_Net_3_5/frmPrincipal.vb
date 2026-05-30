@@ -49,13 +49,13 @@ Namespace Solucoes_Integradas_VB_Net_3_5
         Public Shared strEnderecoBancoDadosPrincipal As String = String.Empty
         Public Shared strTabelaPrincipal As String = String.Empty
 
-        Public Shared cntNomeServidorCADU As String = "10.61.116.29" ' Nome do seu servidor.
-        Public Shared cntNomeBaseDadosCADU As String = "cadu" ' Nome da base de dados
-        Public Shared cntIdentificadorUsuarioCADU As String = "patrimonio_user" ' Identificador do usuário da base de dados
-        Public Shared cntSenhaCADU As String = "p01t53wl" ' Senha da base de dados
+        Public Shared cntNomeServidorCADU As String = String.Empty ' Nome do seu servidor.
+        Public Shared cntNomeBaseDadosCADU As String = String.Empty ' Nome da base de dados
+        Public Shared cntIdentificadorUsuarioCADU As String = String.Empty ' Identificador do usuário da base de dados
+        Public Shared cntSenhaCADU As String = String.Empty ' Senha da base de dados
         Public Shared cntConexaoBancoDadosCADU As String = String.Empty
         Public Shared cntEnderecoBancoDadosCADU As String = String.Empty
-        Public Shared cntTabelaCADU As String = "vw_patrimonio"
+        Public Shared cntTabelaCADU As String = String.Empty
         Public Shared cntSegurancaIntegradaCADU As String = "False"
         Public Shared cntInformacaoSegurancaPersistenteCADU As String = "True"
 
